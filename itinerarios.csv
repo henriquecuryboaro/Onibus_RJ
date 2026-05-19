@@ -1,0 +1,954 @@
+﻿fid,extensao,consorcio,descricao_desvio,tipo_rota,shape_id,direcao,destino,servico,SHAPE__Length,tipo_dia
+1,24049,Intersul,,regular,006j,0,Circular,LECD130,24049.6495734513,U
+2,8502,Santa Cruz,,regular,01gk,1,Jardim Bangu,819,8502.54740146683,U
+3,12723,Intersul,,regular,01o6,0,Circular,010,12723.3224919694,U
+4,29403,Internorte,,regular,01vm,0,Copacabana,SN457,29403.611995876,U
+5,25967,Santa Cruz,,regular,040z,1,Terminal Campo Grande,857,25967.9521245342,U
+6,32495,MOBI-Rio,,brt,05z4,1,Estação Santa Eugênia,14,32495.7945453333,U
+7,10980,Santa Cruz,,regular,087b,0,Terminal Curral Falso,807,10980.2658185709,U
+8,20595,Intersul,,regular,0bhr,0,Leblon,476,20595.1397267419,U
+9,30677,Santa Cruz,,regular,0cs8,1,Campo Grande,SN731,30677.6808768749,U
+10,35725,Santa Cruz,,regular,0dno,0,Terminal Deodoro,853,35725.2178874139,U
+11,23578,Transcarioca,,regular,0dz6,1,Merck,636,23578.4235372998,U
+12,19648,Internorte,,regular,0ecz,1,Terminal Madureira,979,19648.3633136983,U
+13,15590,Transcarioca,,regular,0f7c,0,Terminal Tanque,610,15590.0065561659,U
+14,28709,Internorte,,regular,0mar,0,Méier,LECD148,28709.495470147,U
+15,14254,Transcarioca,,regular,0piv,0,Jardim Oceânico,805,14254.7033335701,U
+16,39214,Internorte,,regular,0psm,1,Pavuna,SR384,39214.4306663645,U
+17,76697,Santa Cruz,,frescao,0qyy,0,Castelo,2338,76697.6729742462,D
+18,25277,Intersul,,regular,0snx,0,Leblon,415,25277.1033854144,U
+19,20663,Transcarioca,,regular,0tap,1,Cascadura,607,20663.8008778201,U
+20,36760,Santa Cruz,,regular,0v09,0,Bonsucesso,918,36760.8999125831,U
+21,14570,Intersul,,regular,0v6u,1,Terminal Gentileza,LECD128,14570.6757073632,U
+22,31020,Santa Cruz,,regular,0xz6,0,Penha,926,31020.99711352,U
+23,21811,Internorte,,regular,0zxr,1,Pavuna,SN919,21811.4998076842,U
+24,36646,Santa Cruz,,regular,10f900a8-7a30-43b5-a2a3-bde69060e1be,1,Jardim Violeta,918,36646.1577604217,U
+25,28980,Santa Cruz,,regular,18ex,1,Terminal Campo Grande,786,28980.456371626,U
+26,26351,Intersul,,regular,1bx4,0,Circular,583,26351.2486675371,U
+27,17901,Intersul,,regular,1gob,0,Candelária,275,17901.2069747093,U
+28,44313,Santa Cruz,,regular,1gvc,0,Candelária,393,44313.4682488095,U
+29,75873,Santa Cruz,,frescao,1h0q,1,Santa Cruz,2335,75873.8259727264,D
+30,9618,Santa Cruz,,regular,1hbz,0,Circular,848,9618.46165491992,U
+31,38445,Internorte,,regular,1kei,1,Mariópolis,624,38445.1662056847,U
+32,15567,Internorte,,regular,1kyc,1,Metrô Pavuna,779,15567.3875615041,U
+33,21282,Intersul,,regular,1lr2,0,Leme,472,21282.0189343839,U
+34,24552,Transcarioca,,regular,1oge,1,Terminal Alvorada,645,24552.9623188974,U
+35,31160,Transcarioca,,regular,1pky,1,Curicica,390,31160.5873036136,U
+36,46718,Santa Cruz,,regular,1t8g,1,Santa Cruz,753,46718.4647996498,U
+37,7167,Intersul,,regular,1u7u,1,Silvestre,507,7167.09947734866,U
+38,37512,Transcarioca,,regular,1v5q,0,Candelária,348,37512.6207231123,U
+39,24550,Santa Cruz,,regular,1wc6,1,Campo Grande,798,24550.1234862769,U
+40,66578,Santa Cruz,,frescao,1yig,1,Jardim 7 de Abril,2307,66578.8238100361,U
+41,30073,Internorte,,regular,1zaw,1,Rocha Miranda,277,30073.7846767949,U
+42,12227,Internorte,,regular,1zgs,1,Bancários,SP329,12227.1310985246,U
+43,28500,Santa Cruz,,regular,20499ff4-30d6-456b-9bd8-22499cef7898,0,Cascadura,786,28500.692746473,U
+44,12247,Intersul,,regular,2114,1,Silvestre,SN007,12247.0357650384,U
+45,27881,Internorte,,regular,23wj,0,Castelo,321,27881.5631416855,U
+46,13288,Santa Cruz,,regular,23xf,0,Campo Grande,826,13288.2530898074,U
+47,32591,Santa Cruz,,regular,24807403-078d-4c2f-b592-d01ab51a9f49,0,Terminal Deodoro,883,32591.7754860956,U
+48,32769,Santa Cruz,,regular,28lk,1,Santíssimo,737,32769.0120347313,U
+49,23025,Santa Cruz,,regular,2auo,1,Largo do Mendanha,765,23025.7644535116,U
+50,25600,Internorte,,regular,2bjt,0,Méier,669,25600.1530034234,U
+51,16486,Internorte,,regular,2bk6,0,Circular,LECD145,16486.0446747319,U
+52,19213,Internorte,,regular,2bl8,0,Terminal Gentileza,SV606,19213.9326364377,U
+53,16335,Internorte,,regular,2cls,1,Camarista Méier,247,16335.673809761,U
+54,51332,Santa Cruz,,frescao,2cxi,1,Santa Cruz,2802,51332.4723952964,U
+55,17403,Internorte,,regular,2dzj,0,Passeio,247,17403.2127251428,U
+56,65821,Santa Cruz,,frescao,2hap,0,Carioca,2307,65821.5844942721,U
+57,29779,Internorte,,regular,2kyb,0,Rio Comprido,711,29779.0102628911,U
+58,31671,Transcarioca,,regular,2okt,1,Terminal Alvorada,LECD137,31671.5587083736,U
+59,18669,MOBI-Rio,,regular,2prh,1,Pingo D'Água,28,18669.7730902559,U
+60,34462,Internorte,,regular,2q3o,1,Bananal,634,34462.3311847627,U
+61,21583,Internorte,,regular,2s0c,1,Água Santa,238,21583.9545496157,U
+62,19949,Internorte,,regular,2so3,1,Marechal Hermes,650,19949.2930695386,U
+63,23989,Transcarioca,,regular,2ubr,0,Marechal Hermes,785,23989.0214602302,U
+64,11982,Internorte,,regular,2uyg,1,Metrô Pavuna,LECD143,11982.7892196742,U
+65,19993,Intersul,,regular,2xcp,0,Gávea,410,19993.8935126777,U
+66,33623,Santa Cruz,,regular,34402958-de24-498e-b913-3f70f5311747,1,Realengo,383,33623.4698394654,U
+67,33052,Transcarioca,,regular,35bu,1,Curicica,380,33052.0482840998,U
+68,29606,Internorte,,regular,36rt,1,Pavuna,946,29606.9680370339,U
+69,26192,Santa Cruz,,regular,39c58c88-de37-45d8-9d68-8214aa8ede64,1,Sepetiba,884,26192.4345686294,U
+70,24724,MOBI-Rio,,brt,39wo,0,Terminal Alvorada,52,24724.9612590946,U
+71,22218,Transcarioca,,regular,39yj,0,Recreio dos Bandeirantes,954,22218.5561037105,U
+72,7664,Santa Cruz,,regular,3c5abdb6-dfca-4983-92bd-86aacca19055,1,Rio da Prata,846,7664.90608861134,U
+73,10655,MOBI-Rio,,regular,3ets,1,Bangu,68,10655.3946327799,U
+74,25443,Intersul,,regular,3f1i,1,Usina,SN415,25443.3224471623,U
+75,30694,Transcarioca,,regular,3i7l,1,Terminal Gentileza,301,30694.481621627,U
+76,49492,Transcarioca,,regular,3iew,0,Castelo,361,49492.2661656958,U
+77,30156,Transcarioca,,regular,3jos,0,Candelária,SP343,30156.7906727507,U
+78,28630,Transcarioca,,regular,3lx5,0,Terminal Alvorada,301,28630.6799494649,U
+79,17621,Internorte,,regular,3oh2,1,Engenho de Dentro,606,17621.6264285553,U
+80,10465,Santa Cruz,,regular,3q7m,1,Jabour,SP803,10465.1542838104,U
+81,24358,Intersul,,regular,3tih,0,Rodoviária,LECD127,24358.4484622752,U
+82,19548,Internorte,,regular,3tti,0,Fundão,SP485,19548.8289955389,U
+83,32283,Santa Cruz,,regular,3x18,1,Barra de Guaratiba,SN867,32283.6269411797,U
+84,6085,Transcarioca,,regular,40537037-ecb8-4834-b47f-278af08fadd1,0,Terminal Taquara,831,6085.7019954065,U
+85,21713,Internorte,,regular,41i6,1,Engenho de Dentro,SV606,21713.8604196198,U
+86,21583,Internorte,,regular,42ke,1,Água Santa,SN238,21583.6078661259,U
+87,37825,Internorte,,regular,42sa,1,Pavuna,399,37825.2693041691,U
+88,26846,Transcarioca,,regular,4519964d-83d0-43bf-9da3-c1eb6cfcd2bb,1,Terminal Taquara,810,26846.0890256017,U
+89,69916,Santa Cruz,,regular,47f1,0,Candelária,388,69916.3238737797,U
+90,16218,Internorte,,regular,485l,1,Lins de Vasconcelos,232,16218.8451105653,U
+91,13031,Santa Cruz,,regular,48cd2670-4edc-4a89-ae2b-f4bdd7f11d99,0,Circular,821,13031.5464063616,U
+92,33097,Santa Cruz,,regular,49ff21ac-2dab-4583-81ff-337fafcab12c,1,Terminal Mato Alto,883,33097.9310948888,U
+93,21406,Internorte,,regular,49n7,1,Cordovil,335,21406.7231080525,U
+94,17724,Internorte,,regular,4b80,1,Madureira,975,17724.6349856111,U
+95,13947,MOBI-Rio,,brt,4bir,1,Terminal Centro Olímpico,50,13947.6328127148,U
+96,27893,Internorte,,regular,4c0e,1,Marechal Hermes,638,27893.9454741141,U
+97,13998,Santa Cruz,,regular,4cwq,1,Urucânia,868,13998.5600277695,U
+98,30739,Internorte,,regular,4dox,0,Penha,SV483,30739.3857027368,U
+99,22819,Intersul,,regular,4e7e,1,Grajaú,422,22819.0052176483,U
+100,28477,MOBI-Rio,,brt,4fxk,0,Terminal Alvorada,46,28477.1659698225,U
+101,12173,Intersul,,regular,4gap,1,Central,107,12173.1695154755,U
+102,75980,Santa Cruz,,frescao,4goj,1,Santa Cruz,2335,75980.7581827066,U
+103,30167,Internorte,,regular,4hvc,1,Madureira,SN355,30167.816971295,U
+104,33623,Santa Cruz,,regular,4idt,1,Realengo,SN383,33623.1916099088,U
+105,6532,Santa Cruz,,regular,4k6g,1,Terminal Campo Grande,837,6532.70426936008,U
+106,36909,Transcarioca,,regular,4laz,1,Riocentro,368,36909.3729749554,U
+107,19716,Internorte,,regular,4olt,0,Candelária,SN312,19716.1528597931,U
+108,54309,Santa Cruz,,frescao,4os2,0,Barra da Tijuca,2802,54309.4797330371,U
+109,16949,Intersul,,regular,4rlb,0,Lido,473,16949.7754701768,U
+110,21265,Internorte,,regular,4rq4,0,Saens Peña,630,21265.7460913112,U
+111,48424,Transcarioca,,regular,4rzh,1,Central,315,48424.6192480496,U
+112,38692,MOBI-Rio,,brt,4s1f,1,Santa Cruz,11,38692.5696826267,U
+113,40861,Santa Cruz,,regular,4th2,0,Circular,852,40861.4886514933,U
+114,20412,Internorte,,regular,4w0k,1,Engenho da Rainha,292,20412.3879206067,U
+115,19806,Transcarioca,,regular,4wtm,1,Méier,678,19806.2628940706,U
+116,23249,Intersul,,regular,4y0j,1,Méier,476,23249.70619662,U
+117,26743,Transcarioca,,frescao,50ix,0,Castelo,2110,26743.0168328174,U
+118,24256,Transcarioca,,regular,53fs,1,Riocentro,SPA613,24256.3178867444,U
+119,11665,Intersul,,regular,5a65e29a-25a0-49e4-a861-1601b80d5a7b,1,Largo do Machado,133,11665.3846644876,U
+120,31887,Transcarioca,,regular,5au5,0,Candelária,390,31887.9740944332,U
+121,26627,Transcarioca,,regular,5d24b6b9-0c35-4068-861e-9cb6af288387,0,Pontal,810,26627.5183336487,U
+122,13716,Intersul,,regular,5dva,1,Terminal Gentileza,LECD136,13716.191001689,U
+123,14112,Santa Cruz,,regular,5ef72db7-bb22-49e7-9a86-ccff200ce752,1,Jardim Palmares,893,14112.7803233329,U
+124,39799,Internorte,,regular,5fzx,0,Passeio,399,39799.5905381857,U
+125,33031,Internorte,,regular,5hoo,0,Saens Peña,634,33031.276429915,U
+126,41008,Internorte,,regular,5hus,1,Bananal,SN634,41008.7388675542,U
+127,29253,Internorte,,regular,5hya,1,Padre Miguel,SV917,29253.0692920549,U
+128,23471,Santa Cruz,,regular,5i6v,0,Circular,SN895,23471.4516650908,U
+129,11445,Intersul,,regular,5icv,1,Andaraí,217,11445.1505311782,U
+130,8053,Santa Cruz,,regular,5lsi,0,Circular,894,8053.92462152558,U
+131,28651,Transcarioca,,regular,5lyo,0,Recreio dos Bandeirantes,961,28651.1459169174,U
+132,28523,Internorte,,regular,5mve,0,Bonsucesso,SV917,28523.6942463376,U
+133,48434,Transcarioca,,regular,5ppb,1,Recreio dos Bandeirantes,361,48434.4505003183,U
+134,31295,Transcarioca,,regular,5rss,1,Méier,692,31295.6611571909,U
+135,17652,MOBI-Rio,,brt,5xgw,1,Terminal Margaridas,70,17652.4361523648,U
+136,6353,Transcarioca,,regular,60cm,1,Colônia,SV831,6353.65185419212,U
+137,27434,Transcarioca,,regular,60or,1,Terminal Taquara,SN810,27434.8695504721,U
+138,24175,Internorte,,regular,60pk,1,Madureira,254,24175.4445329141,U
+139,23917,Intersul,,regular,60xl,0,Circular,LECD133,23917.2317002703,U
+140,21897,Internorte,,regular,61z8,1,Terminal Deodoro,908,21897.0579692896,U
+141,26845,Internorte,,regular,62cfa6d6-5bae-4012-b0e0-b8ac4dc2cce9,1,Bananal,910,26845.8678851478,U
+142,24257,Transcarioca,,frescao,62h7,1,Riocentro,2613,24257.9678175582,U
+143,12406,Intersul,,regular,62mw,1,Furnas,448,12406.5761939706,U
+144,28247,Internorte,,regular,63ul,1,Bananal,323,28247.5913164169,U
+145,22505,Internorte,,regular,648e,1,Engenheiro Leal,311,22505.0177984423,U
+146,14369,Intersul,,regular,67l0,0,Circular,519,14369.076697065,U
+147,12388,Intersul,,regular,68m6,0,Alto Gávea,LECD128,12388.9633150018,U
+148,33463,Internorte,,regular,68r3,1,Méier,696,33463.2120832107,U
+149,19540,MOBI-Rio,,brt,6a84,0,Terminal Alvorada,35,19540.7137407003,U
+150,22085,Santa Cruz,,regular,6a8e,1,São Fernando,840,22085.7413009542,U
+151,36520,Internorte,,regular,6dma,1,Marechal Hermes,378,36520.1015309587,U
+152,8601,Intersul,,regular,6dqy,0,Central do Brasil,007,8601.26791396512,U
+153,24995,Internorte,,frescao,6dzv,1,Bancários,2344,24995.5087620726,U
+154,27093,Transcarioca,,regular,6jfq,1,Rio das Pedras,557,27093.6058739655,U
+155,22606,MOBI-Rio,,brt,6mtl,1,Terminal Deodoro,51,22606.7817301431,U
+156,17467,Internorte,,regular,6n94,1,Pavuna,SP795,17467.1273386603,U
+157,22313,Internorte,,regular,6ntj,0,Castelo,SN238,22313.3235337808,U
+158,19619,MOBI-Rio,,brt,6otz,0,Terminal Alvorada,40,19619.8561111488,U
+159,29012,Internorte,,regular,6pdj,0,Castelo,SN265,29012.9921187545,U
+160,39346,Santa Cruz,,regular,6ph8,0,Candelária,300,39346.4327405389,U
+161,38660,Internorte,,regular,6rzc,0,Saens Peña,SN634,38660.423913514,U
+162,24437,Internorte,,regular,6t2x,1,Marechal Hermes,SP265,24437.4187950678,U
+163,8460,Intersul,,regular,6wyv,0,Castelo,006,8460.14765069244,U
+164,29364,Transcarioca,,frescao,6xgk,0,Castelo,2345,29364.3071780949,U
+165,18556,Intersul,,regular,6xgz,1,São Januário,473,18556.9860101212,U
+166,16436,MOBI-Rio,,brt,71i9,1,Terminal Campo Grande,17,16436.5294743763,U
+167,10306,Santa Cruz,,regular,72jl,0,Inhoaíba,841,10306.292718412,U
+168,4960,Transcarioca,,regular,7315d981-cc79-4dd9-b047-ad1850d7b6ea,1,Colônia,831,4960.7028240027,U
+169,25962,Internorte,,regular,74ji,1,Méier,455,25962.2097764559,U
+170,76070,Santa Cruz,,frescao,75cb,0,Castelo,2338,76070.2606236468,U
+171,12246,Santa Cruz,,regular,75e2dbf7-3a7c-4336-8804-d04d5d9840e7,0,Campo Grande,893,12246.7119978468,U
+172,15669,MOBI-Rio,,brt,78km,0,Estação Santa Cruz,17,15669.9742856016,U
+173,22566,Internorte,,regular,7chn,0,Terminal Gentileza,SP265,22566.013635947,U
+174,32659,Santa Cruz,,regular,7d078f19-2746-4344-9b3c-e020f6a3183f,1,Sepetiba,898,32659.9600313406,U
+175,37659,Transcarioca,,regular,7dpo,0,Candelária,368,37659.7092602033,U
+176,14158,Internorte,,regular,7ebr,0,Terminal Fundão,SP328,14158.75775467,U
+177,46066,Santa Cruz,,regular,7ecm,0,Metrô Coelho Neto,753,46066.5579268747,U
+178,46074,Transcarioca,,regular,7g5m,0,Recreio dos Bandeirantes,315,46074.0728459746,U
+179,6705,Intersul,,regular,7h8g,0,Castelo,201,6705.37874883416,U
+180,13447,Internorte,,regular,7kxh,1,Bananal,SP328,13447.5587183814,U
+181,17508,Internorte,,regular,7lx7,0,Castelo,SN232,17508.881855024,U
+182,29566,Transcarioca,,regular,7ouv,0,Central do Brasil,LECD129,29566.5133152809,U
+183,6994,Intersul,,regular,7qih,1,Central,117,6994.76347476192,U
+184,21436,MOBI-Rio,,brt,7uyq,1,Estação Pontal,18,21436.3791667693,U
+185,22542,Internorte,,regular,7vu5,0,Circular,LECD146,22542.1789291113,U
+186,24146,Transcarioca,,regular,7x13,1,Cidade de Deus,SPA550,24146.5385506824,U
+187,28644,Internorte,,regular,7z3u,1,Bananal,328,28644.3500700712,U
+188,29708,Transcarioca,,regular,7zri,1,Taquara,341,29708.8707859872,U
+189,17089,Intersul,,regular,80cb,1,Candelária,SN209,17089.1994766153,U
+190,16251,Internorte,,regular,825u,0,Terminal Gentileza,606,16251.7259032496,U
+191,33307,Santa Cruz,,regular,82cc8479-53d1-4b34-8ffb-f1bd5478bc28,0,Praça da República,383,33307.1664794019,U
+192,38303,Santa Cruz,,regular,82wb,1,Terminal Sulacap,300,38303.5220367399,U
+193,19150,Transcarioca,,regular,82xo,0,Vila Valqueire,678,19150.0005280779,U
+194,45826,Santa Cruz,,frescao,831p,1,Bangu,2310,45826.7090344133,U
+195,24589,Transcarioca,,regular,83ccb7af-09c8-4561-b82d-cbac750e601a,1,Terminal Tanque,878,24589.3869694199,U
+196,53650,Santa Cruz,,frescao,83td,0,Castelo,2336,53650.734285948,U
+197,21438,MOBI-Rio,,brt,83ve,0,Terminal Alvorada,35,21438.116774748,U
+198,70078,Santa Cruz,,frescao,8739,0,Carioca,2303,70078.3588889661,U
+199,15569,Internorte,,regular,87e4,1,Méier,663,15569.769671359,U
+200,22395,Intersul,,regular,8ah4,1,Gávea,LECD127,22395.6425537162,U
+201,25047,Transcarioca,,regular,8bai,1,Rio das Pedras,961,25047.654458502,U
+202,56278,Santa Cruz,,regular,8bn8,1,Terminal Campo Grande,SN397,56278.8130137404,U
+203,27085,Transcarioca,,regular,8d7z,0,Metrô Del Castilho,611,27085.9756732554,U
+204,22512,Internorte,,regular,8e13,0,Saens Peña,623,22512.8198970475,U
+205,29038,MOBI-Rio,,brt,8jpz,1,Estação Magarça,16,29038.0795184831,U
+206,23553,MOBI-Rio,,brt,8jzx,0,Santa Efigênia,43,23553.2901670978,U
+207,27143,Transcarioca,,regular,8ncs,1,Ramos (Praia),940,27143.1653650501,U
+208,10657,MOBI-Rio,,brt,8nd5,1,Terminal Aroldo Melodia,90,10657.8979071368,U
+209,24314,Internorte,,regular,8s72,1,Marechal Hermes,928,24314.1609179754,U
+210,22345,Internorte,,regular,8u77,0,Castelo,238,22345.4655422187,U
+211,31981,Transcarioca,,regular,8vtj,0,Terminal Gentileza,SN353,31981.5202186508,U
+212,3895,Intersul,,regular,8w0q,0,Muda,626,3895.7639779857,U
+213,29802,Transcarioca,,regular,8zt8,0,Saens Peña,601,29802.3562057612,U
+214,15806,Santa Cruz,,regular,90sj,0,Terminal Mato Alto,820,15806.2521560655,U
+215,34655,Internorte,,regular,923i,0,Castelo,SR362,34655.5763423055,U
+216,11301,Transcarioca,,regular,92s8,1,Gardênia Azul,932,11301.9817869859,U
+217,28023,Transcarioca,,regular,934c,1,Terminal Tanque,565,28023.9338152082,U
+218,75715,Santa Cruz,,regular,95vp,1,Cesarão,SN388,75715.2403973917,U
+219,23374,Santa Cruz,,regular,97k8,1,Bangu,794,23374.1394977765,U
+220,19726,Internorte,,regular,97om,1,Água Santa,239,19726.2146784866,U
+221,28588,Internorte,,regular,986i,0,Castelo,325,28588.8248632152,U
+222,18632,Internorte,,regular,98sl,0,Méier,653,18632.7709975068,U
+223,11060,MOBI-Rio,,regular,98zp,0,Terminal Deodoro,68,11060.7693466508,U
+224,71168,Santa Cruz,,regular,9ann,0,Candelária,SN388,71168.8499879264,U
+225,36861,Internorte,,regular,9bbf,0,Praça da Bandeira,SV624,36861.5101091065,U
+226,15457,Transcarioca,,regular,9d55422a-d473-4b6d-93ca-9be9cd7ef928,1,Terminal Taquara,900,15457.5379825125,U
+227,18077,Intersul,,regular,9ftt,1,Rocinha,539,18077.738445951,U
+228,32920,Transcarioca,,regular,9h0e,0,Terminal Alvorada,692,32920.0114399661,U
+229,8732,Intersul,,regular,9koq,1,Santa Alexandrina,201,8732.15485307106,U
+230,17515,Internorte,,regular,9ptt,0,Castelo,232,17515.4046340186,U
+231,22561,Santa Cruz,,regular,9r5c,0,Terminal Recreio,SV899,22561.2591235539,U
+232,23416,MOBI-Rio,,brt,9sit,1,Terminal Pingo d'Água,19,23416.2898262322,U
+233,25204,MOBI-Rio,,brt,9ttx,0,Terminal Gentileza,60,25204.3826989342,U
+234,8605,Transcarioca,,regular,9u3h,0,Irajá,712,8605.84711017712,U
+235,43374,Santa Cruz,,regular,9un7,1,Santa Cruz,754,43374.05633279,U
+236,21053,Transcarioca,,regular,9uzp,1,Terminal Taquara,SN954,21053.8630257121,U
+237,40921,Internorte,,regular,9vau,1,Mariópolis,SN624,40921.6492917397,U
+238,42938,Santa Cruz,,regular,9vn3,0,Terminal Deodoro,754,42938.571461745,U
+239,17961,Transcarioca,,regular,9vre,0,Madureira,775,17961.9508562202,U
+240,79272,Santa Cruz,,frescao,E2337AAA0AVRM01,1,Santa Cruz,2337,79272.5786600861,U
+241,25158,Transcarioca,,regular,O0038CAA0AIDU01,0,Saens Peña,645,25158.6526821379,U
+242,18849,Transcarioca,,regular,O0039CAA0AIDU01,0,Vargem Grande,817,18849.6438134223,U
+243,16192,Transcarioca,,regular,O0039CAA0AVDU01,1,Piabas,817,16192.2064581716,U
+244,17144,Transcarioca,,regular,O0042CAA0AIDU01,0,Joatinga,990,17144.6974028191,U
+245,15244,Transcarioca,,regular,O0042CAA0AVDU01,1,Merck,990,15244.3075666658,U
+246,6177,Santa Cruz,,regular,O0044CAA0AIDU01,0,Campo Grande,808,6177.4025458541,U
+247,6846,Santa Cruz,,regular,O0044CAA0AVDU01,1,Salim,808,6846.47940731116,U
+248,22836,Santa Cruz,,regular,O0045CAA0AIDU01,1,Barra de Guaratiba,899,22836.989954559,U
+249,20334,Santa Cruz,,regular,O0045CAA0AVDU01,0,Terminal Recreio,899,20334.3173146848,U
+250,11662,Intersul,,regular,O0133AAA0AVDU02,1,Largo do Machado,SN133,11662.9745877098,U
+251,10405,Intersul,,regular,O0202AAA0AVDU02,1,Rio Comprido,202,10405.1212831138,U
+252,10923,Intersul,,regular,O0229AAA0AIDU02,0,Castelo,229,10923.5696042588,U
+253,16217,Internorte,,regular,O0232AAA0AVDU01,1,Lins de Vasconcelos,SN232,16217.7310985647,U
+254,33368,Internorte,,regular,O0298AAA0AIDU01,0,Castelo,SN298,33368.1845034063,U
+255,38877,Santa Cruz,,regular,O0300AAR0AIDU01,0,Candelária,SR300,38877.7672337307,U
+256,38429,Santa Cruz,,regular,O0300AAR0AVDU01,1,Terminal Sulacap,SR300,38429.0392244509,U
+257,27695,Internorte,,regular,O0328AAV0AIDU01,0,Candelária,SR328,27695.4625734548,U
+258,28643,Internorte,,regular,O0328AAV0AVDU01,1,Bananal,SR328,28643.5444579869,U
+259,32048,Internorte,,regular,O0342AAR0AIDU01,0,Castelo,SR342,32048.174467063,U
+260,28663,Internorte,,regular,O0342AAR0AVDU02,1,Jardim América,SR342,28663.1050662766,U
+261,37351,Transcarioca,,regular,O0352AAA0AVDU02,1,Riocentro,352,37351.5825938779,U
+262,28531,Internorte,,regular,O0355AAR0AIDU01,0,Praça Tiradentes,SR355,28531.2163243911,U
+263,29101,Internorte,,regular,O0355AAR0AVDU01,1,Madureira,SR355,29101.1000330279,U
+264,39839,Santa Cruz,,regular,O0369AAA0AVDU01,1,Bangu,369,39839.8707940644,U
+265,35621,Internorte,,regular,O0378AAR0AIDU01,0,Castelo,SR378,35621.5766371358,U
+266,36493,Internorte,,regular,O0378AAR0AVDU01,1,Marechal Hermes,SR378,36493.6819023184,U
+267,44030,Santa Cruz,,regular,O0393AAR0AIDU01,0,Candelária,SR393,44030.0613037009,U
+268,45228,Santa Cruz,,regular,O0393AAR0AVDU01,1,Bangu,SR393,45228.5260896207,U
+269,24211,Internorte,,regular,O0456AAA0AIDU01,0,Copacabana,LECD132,24211.372643214,U
+270,25556,Internorte,,regular,O0456AAA0AVDU01,1,Norte Shopping,LECD132,25556.3913810106,U
+271,29812,Intersul,,regular,O0474AAN0AIDU02,0,Copacabana,SN474,29812.7928286389,U
+272,21330,Internorte,,regular,O0629AAA0AVDU01,1,Irajá,SN629,21330.3369493296,U
+273,32940,Internorte,,regular,O0639AAA0AIDU01,0,Saens Peña,SN639,32940.2462724477,U
+274,34026,Internorte,,regular,O0639AAA0AVDU01,1,Jardim América,SN639,34026.9038338047,U
+275,37528,Internorte,,regular,O0696AAA0AVDU01,1,Méier,SN696,37528.8598098414,U
+276,18181,Santa Cruz,,regular,O0745AAA0AIDU01,0,Cascadura,745,18181.0195657787,U
+277,19077,Santa Cruz,,regular,O0745AAA0AVDU01,1,Bangu,745,19077.0030255653,U
+278,18752,Santa Cruz,,regular,O0746AAA0AIDU01,0,Cascadura,746,18752.8794275365,U
+279,19430,Santa Cruz,,regular,O0746AAA0AVDU01,1,Jabour,746,19430.1239265661,U
+280,49185,Santa Cruz,,regular,O0756AAA0AIDU01,0,Metrô Coelho Neto,756,49185.5676415628,U
+281,48600,Santa Cruz,,regular,O0756AAA0AVDU01,1,Santa Cruz,756,48600.3569690594,U
+282,47013,Santa Cruz,,regular,O0759AAA0AIDU01,0,Metrô Coelho Neto,759,47013.1125333026,U
+283,46302,Santa Cruz,,regular,O0759AAA0AVDU01,1,Cesarão,759,46302.683183754,U
+284,40479,Santa Cruz,,regular,O0759AAP0AIDU01,0,Terminal Deodoro,SP759,40479.4178556088,U
+285,42145,Santa Cruz,,regular,O0759AAP0AVDU01,1,Cesarão,SP759,42145.8589425011,U
+286,14520,Santa Cruz,,regular,O0769AAA0AIDU01,0,Terminal Deodoro,SP918,14520.5926436706,U
+287,17252,Santa Cruz,,regular,O0769AAA0AVDU01,1,Jardim Violeta,SP918,17252.794832662,U
+288,29043,Santa Cruz,,regular,O0770AAA0AVDU01,1,Campo Grande,770,29043.0595687372,U
+289,25362,Santa Cruz,,regular,O0777AAV0AVDU02,1,Padre Miguel,SV777,25362.7586748289,U
+290,36245,Santa Cruz,,regular,O0790AAV0AVDU02,1,Campo Grande,SV790,36245.4681576803,U
+291,21744,Santa Cruz,,regular,O0801AAA0AIDU01,0,Taquara,801,21744.5440602768,U
+292,25628,Santa Cruz,,regular,O0801AAA0AVDU01,1,Bangu,801,25628.1527065259,U
+293,13540,Santa Cruz,,regular,O0801AAP0AIDU01,0,Terminal Sulacap,SP801,13540.8844185504,U
+294,14512,Santa Cruz,,regular,O0801AAP0AVDU01,1,Bangu,SP801,14512.1229435416,U
+295,15239,Santa Cruz,,regular,O0802AAA0AIDU01,1,Terminal Campo Grande,802,15239.8873348269,U
+296,13060,Santa Cruz,,regular,O0802AAA0AVDU01,0,Bangu,802,13060.1492017199,U
+297,25551,Santa Cruz,,regular,O0804AAA0AVDU01,1,Terminal Curral Falso,804,25551.5051972655,U
+298,7103,Santa Cruz,,regular,O0809AAA0AIDU01,0,Santa Cruz,809,7103.75997394003,U
+299,7786,Santa Cruz,,regular,O0809AAA0AVDU01,1,Sagrado Coração,809,7786.60076471426,U
+300,13419,Santa Cruz,,regular,O0822AAA0AIDU01,0,Circular,822,13419.877908831,U
+301,22678,Santa Cruz,,regular,O0825AAA0AIDU02,0,Jesuítas,825,22678.3569634398,U
+302,21131,Santa Cruz,,regular,O0825AAA0AVDU02,1,Campo Grande,825,21131.2498476152,U
+303,6008,Transcarioca,,regular,O0829AAA0AIDU01,0,Circular,829,6008.10635524746,U
+304,12128,Santa Cruz,,regular,O0833AAA0AIDU02,0,Campo Grande,833,12128.1062500162,U
+305,12127,Santa Cruz,,regular,O0833AAA0AVDU02,1,Conjunto Manguariba,833,12127.2431963483,U
+306,9100,Santa Cruz,,regular,O0835AAA0AIDU01,0,Terminal Campo Grande,835,9100.56489609592,U
+307,9647,Santa Cruz,,regular,O0835AAA0AVDU01,1,Largo do Correia,835,9647.52073227941,U
+308,8520,Santa Cruz,,regular,O0837AAA0AIDU01,0,Conjunto da Marinha,837,8520.37772094964,U
+309,13747,Santa Cruz,,regular,O0838AAA0AIDU01,1,Terminal Campo Grande,838,13747.0128566543,U
+310,14404,Santa Cruz,,regular,O0838AAA0AVDU01,0,Terminal Magarça,838,14404.7150790445,U
+311,12218,Santa Cruz,,regular,O0843AAA0AIDU01,0,Circular,843,12218.9680027806,U
+312,6790,Transcarioca,,regular,O0844AAA0AVDU02,0,Circular,844,6790.76513884659,U
+313,7515,Santa Cruz,,regular,O0846AAA0AIDU01,0,Terminal Campo Grande,SN846,7515.91378427382,U
+314,7662,Santa Cruz,,regular,O0846AAA0AVDU01,1,Rio da Prata,SN846,7662.20754390799,U
+315,7011,Santa Cruz,,regular,O0847AAA0AIDU01,0,Terminal Campo Grande,847,7011.41107456963,U
+316,7188,Santa Cruz,,regular,O0847AAA0AVDU01,1,Rio da Prata,847,7188.39979817582,U
+317,17829,Santa Cruz,,regular,O0849AAA0AIDU01,0,Campo Grande,849,17829.3664498721,U
+318,18731,Santa Cruz,,regular,O0849AAA0AVDU01,1,Base Aérea de Santa Cruz,849,18731.4862771141,U
+319,9559,Santa Cruz,,regular,O0850AAA0AIDU01,0,Campo Grande,850,9559.60064951102,U
+320,8984,Santa Cruz,,regular,O0850AAA0AVDU01,1,Mendanha,850,8984.00531906189,U
+321,17548,Santa Cruz,,regular,O0851AAA0AIDU01,0,Circular,851,17548.4660016816,U
+322,40990,Santa Cruz,,regular,O0853AAA0AIDU01,1,Terminal Mato Alto,SN853,40990.8088349561,U
+323,25698,Santa Cruz,,regular,O0854AAPAAIDU01,0,Ilha de Guaratiba,854,25698.7928302094,U
+324,23088,Santa Cruz,,regular,O0854AAPAAVDU01,1,Terminal Campo Grande,854,23088.5307051007,U
+325,19680,Transcarioca,,regular,O0861AAA0AIDU01,0,Curicica,861,19680.5113904706,U
+326,17630,Transcarioca,,regular,O0861AAA0AVDU01,1,Rio das Pedras,861,17630.5479114967,U
+327,11354,Santa Cruz,,regular,O0864AAA0AIDU01,0,Terminal Campo Grande,SP864,11354.8723563283,U
+328,11243,Santa Cruz,,regular,O0864AAA0AVDU01,1,Bangu,SP864,11243.9487873343,U
+329,7956,Transcarioca,,regular,O0865AAA0AVDU01,1,Pau da Fome,865,7956.80524954558,U
+330,18341,Santa Cruz,,regular,O0866AAV0AIDU01,1,Terminal Campo Grande,SV866,18341.8842049825,U
+331,6713,Santa Cruz,,regular,O0869AAA0AIDU01,0,Campo Grande,869,6713.76878618284,U
+332,9067,Santa Cruz,,regular,O0869AAA0AVDU01,1,Santa Margarida,869,9067.48163162699,U
+333,18632,Santa Cruz,,regular,O0871AAA0AVDU02,1,Terminal Pingo D'Água,871,18632.9910514579,U
+334,13534,Transcarioca,,regular,O0880AAA0AIDU01,0,Terminal Alvorada,880,13534.2742192339,U
+335,10619,Transcarioca,,regular,O0880AAA0AVDU01,1,Rio das Pedras,880,10619.0540879781,U
+336,11073,Santa Cruz,,regular,O0892AAA0AIDU02,0,Circular,892,11073.501409606,U
+337,12246,Santa Cruz,,regular,O0893AAA0AIDU01,0,Campo Grande,SN893,12246.9166770698,U
+338,14125,Santa Cruz,,regular,O0893AAA0AVDU01,1,Jardim Palmares,SN893,14125.8607941498,U
+339,13376,Santa Cruz,,regular,O0895AAA0AIDU01,0,Campo Grande,895,13376.7380420695,U
+340,12811,Santa Cruz,,regular,O0895AAA0AVDU01,1,Serrinha,895,12811.4936199697,U
+341,25950,Santa Cruz,,regular,O0896AAA0AIDU01,1,Terminal Campo Grande,SN857,25950.7180712639,U
+342,13172,Santa Cruz,,regular,O0897AAA0AIDU01,0,Terminal Pingo D'Água,SN897,13172.0053985871,U
+343,14318,Santa Cruz,,regular,O0897AAA0AVDU01,1,Santa Cruz,SN897,14318.3425418394,U
+344,30262,Santa Cruz,,regular,O0898AAA0AIDU01,0,Campo Grande,SN898,30262.7464097671,U
+345,32657,Santa Cruz,,regular,O0898AAA0AVDU01,1,Sepetiba,SN898,32657.8841335543,U
+346,16214,Internorte,,regular,O0905AAA0AIDU01,0,Irajá,905,16214.3697475432,U
+347,17446,Internorte,,regular,O0905AAA0AVDU01,1,Bonsucesso,905,17446.526659987,U
+348,28958,Internorte,,regular,O0906AAA0AIDU02,0,Caju,906,28958.6875909059,U
+349,23598,Internorte,,regular,O0906AAA0AVDU02,1,Jardim América,906,23598.4839759648,U
+350,14704,Internorte,,regular,O0913AAA0AIDU02,0,Terminal Fundão,913,14704.087870714,U
+351,9518,Internorte,,regular,O0913AAA0AVDU02,1,Metrô Del Castilho,913,9518.26712911849,U
+352,14932,Internorte,,regular,O0915AAA0AIDU02,0,Aeroporto Internacional,915,14932.4496670224,U
+353,14222,Internorte,,regular,O0915AAA0AVDU02,1,Bonsucesso,915,14222.2233367674,U
+354,23924,Internorte,,regular,O0919AAA0AIDU02,0,Maré,919,23924.3518829991,U
+355,21820,Internorte,,regular,O0919AAA0AVDU02,1,Pavuna,919,21820.3572635471,U
+356,23007,Internorte,,regular,O0920AAA0AIDU01,0,Bonsucesso,920,23007.3747392569,U
+357,9618,Internorte,,regular,O0922AAA0AIDU02,0,Terminal Fundão,922,9618.60643559853,U
+358,10577,Internorte,,regular,O0922AAA0AVDU02,1,Tubiacanga,922,10577.4026608105,U
+359,18263,Internorte,,regular,O0925AAA0AIDU02,1,Bancários,925,18263.8102912111,U
+360,18915,Internorte,,regular,O0925AAA0AVDU02,0,Aeroporto Internacional,925,18915.6436255511,U
+361,26730,Internorte,,regular,a0188f5b-68f4-4e19-872a-abace8c4344d,0,Irajá,910,26730.9269505805,U
+362,19071,Intersul,,regular,a151138c-e2db-4638-93e3-f4bfb0bd6db9,0,Caju,209,19071.0561166107,U
+363,19135,Santa Cruz,,regular,a1e1ffc2-5778-4ed9-bfcd-e6573b9de459,0,Taquara,803,19135.3191250425,U
+364,9386,Intersul,,regular,a20e6a6d-a5d4-4ea1-8ab1-1da972ef6011,0,Terminal Gentileza,133,9386.65563299237,U
+365,39599,Transcarioca,,regular,a2rb,1,Riocentro,348,39599.0543168864,U
+366,31278,Transcarioca,,regular,a56f,1,Terminal Alvorada,552,31278.0544946353,U
+367,28024,Transcarioca,,regular,a5yt,1,Terminal Tanque,SN565,28024.844112959,U
+368,53058,Santa Cruz,,regular,a927,0,Candelária,397,53058.5746634015,U
+369,54197,Santa Cruz,,frescao,ab43,1,Campo Grande,2336,54197.3181460855,U
+370,27890,Internorte,,frescao,ac19,1,Bananal,2342,27890.9376083214,U
+371,17943,Santa Cruz,,regular,afgt,0,Terminal Sulacap,864,17943.8922176565,U
+372,15211,MOBI-Rio,,brt,alqu,0,Estação Madureira-Manacéia,42,15211.4942310377,U
+373,13758,Transcarioca,,regular,am75,0,Madureira,SP766,13758.3012845013,U
+374,26151,Transcarioca,,regular,amaf,1,Terminal Tanque,SN878,26151.0466024982,U
+375,24779,Intersul,,regular,anga,0,Circular,585,24779.1949650682,U
+376,24381,Intersul,,regular,ao0v,0,Circular,584,24381.6859096363,U
+377,19669,Transcarioca,,regular,apd5,0,Curicica,SN861,19669.4645142258,U
+378,35316,Transcarioca,,regular,apjr,0,Terminal Alvorada,302,35316.0666794301,U
+379,16436,MOBI-Rio,,brt,aq7f,1,Terminal Campo Grande,17,16436.5294743763,U
+380,20658,Transcarioca,,regular,arib,1,Terminal Taquara,SP810,20658.3163714052,U
+381,34984,Internorte,,regular,aroe,0,Castelo,362,34984.0235102062,U
+382,13032,Santa Cruz,,regular,atna,0,Circular,SN821,13032.4018340084,U
+383,3951,Intersul,,regular,au9u,0,Metrô Saens Peña,603,3951.62182719425,U
+384,22455,Santa Cruz,,regular,avb4,1,Capoeira Grande,856,22455.4013750586,U
+385,30296,Transcarioca,,regular,awj6,0,Circular,SV863,30296.0758513608,U
+386,32927,Internorte,,regular,axhq,0,Saens Peña,639,32927.5710247216,U
+387,7315,Intersul,,regular,b119,0,Largo do Machado,507,7315.58896380533,U
+388,28829,MOBI-Rio,,brt,b4ei,1,Estação Penha,46,28829.5161165885,U
+389,24741,Santa Cruz,,regular,b4rv,0,Terminal Campo Grande,884,24741.5310757379,U
+390,37325,Internorte,,regular,b6cr,1,Bananal,SN328,37325.5059649839,U
+391,7503,Santa Cruz,,regular,b7c12a1c-a8af-4935-807d-afdd0b5a0664,0,Terminal Campo Grande,846,7503.8728033106,U
+392,32139,Transcarioca,,regular,b90o,0,Central do Brasil,LECD137,32139.9779673539,U
+393,24364,MOBI-Rio,,brt,baeg,1,Terminal Aroldo Melodia,42,24364.0750717326,U
+394,17002,Transcarioca,,regular,bc94,1,Madureira,766,17002.1772354271,U
+395,39327,Internorte,,regular,bemk,0,Candelária,386,39327.4776131067,U
+396,29207,Transcarioca,,regular,bfne,0,Circular,987,29207.4364431863,U
+397,30297,Internorte,,regular,bh49,0,General Osório,483,30297.9178613838,U
+398,31862,Internorte,,regular,bjdi,1,Bancários,492,31862.1506146144,U
+399,18490,Santa Cruz,,regular,bjzh,0,Santa Cruz,SN885,18490.6331113421,U
+400,27098,Internorte,,regular,bkd5,1,Ribeira,327,27098.262046548,U
+401,42918,Internorte,,regular,bmph,1,Mariópolis,SV624,42918.3124830838,U
+402,34718,Internorte,,regular,bogg,1,Bananal,635,34718.1931541677,U
+403,24985,Santa Cruz,,regular,bpq0,1,Campo Grande,796,24985.845794301,U
+404,23983,Transcarioca,,regular,bry0,0,Metrô Del Castilho,SPA613,23983.7608328648,U
+405,8863,Intersul,,regular,bvj2,0,Castelo,202,8863.44462156736,U
+406,35252,Santa Cruz,,regular,bw4s,1,Campo Grande,790,35252.5018110368,U
+407,11796,Internorte,,regular,by87,1,Vila Cruzeiro,721,11796.1361646665,U
+408,11272,Intersul,,regular,byth,0,Central do Brasil,SN007,11272.4251649716,U
+409,14722,MOBI-Rio,,frescao,bzfm,1,Galeão,ESP01,14722.7207173269,U
+410,21683,Santa Cruz,,regular,c0ed6e59-3c16-40a6-a95a-9d755039f22a,1,Jabour,803,21683.1185290834,U
+411,19136,Santa Cruz,,regular,c0nv,0,Taquara,SN803,19136.1253037556,U
+412,34026,Internorte,,regular,c26k,0,Saens Peña,SVB665,34026.8027225003,U
+413,25980,Intersul,,regular,c2bn,1,Grajaú,435,25980.0354850981,U
+414,32117,Transcarioca,,regular,c2fn,1,Gardênia Azul,353,32117.1559219889,U
+415,16137,Intersul,,regular,c2i8,0,Leblon,LECD134,16137.0840543099,U
+416,57591,Transcarioca,,regular,c3ay,0,Rio Sul,554,57591.8093218282,U
+417,40819,Santa Cruz,,regular,c3d7,0,Circular,866,40819.3715516659,U
+418,29964,Santa Cruz,,regular,c6c4e29e-d25d-4f83-83ce-a048a89a2670,0,Marechal Hermes,731,29964.0172751053,U
+419,18121,Transcarioca,,regular,c7e2,0,Freguesia,766,18121.5613923047,U
+420,31100,Internorte,,regular,ca49,1,Penha,483,31100.2732769962,U
+421,21696,Santa Cruz,,regular,ca605609-4f8c-4e75-a384-02baa71ff896,0,Campo Grande,840,21696.5537373,U
+422,30093,Internorte,,regular,ca8d,0,Saens Peña,SN629,30093.934373409,U
+423,23863,MOBI-Rio,,brt,cbdp,1,Terminal Aroldo Melodia,43,23863.4003080548,U
+424,18972,Santa Cruz,,regular,cbyf,1,Vila Aliança,SP389,18972.3364489479,U
+425,30693,Transcarioca,,regular,cces,0,Copacabana,557,30693.6315174342,U
+426,28415,Santa Cruz,,regular,cf7771c4-322c-49d6-86ae-c72d6c0ea485,1,Campo Grande,731,28415.4590600106,U
+427,41064,Internorte,,regular,ch59,0,Passeio,SR384,41064.761903964,U
+428,36040,Santa Cruz,,regular,ci6k,0,Terminal Deodoro,SV853,36040.8620957408,U
+429,50481,Santa Cruz,,regular,cjd2,1,Terminal Campo Grande,397,50481.565590429,U
+430,15717,Intersul,,regular,ckvb,0,Leme,539,15717.7631545478,U
+431,29602,Transcarioca,,regular,cnsa,1,Santa Maria,601,29602.5250370163,U
+432,15549,Santa Cruz,,regular,coc0,1,Rio da Prata,820,15549.2980327893,U
+433,10745,Santa Cruz,,regular,cr4i,1,Pedregoso,830,10745.3776454823,U
+434,6286,MOBI-Rio,,brt,csy6,1,Terminal Alvorada,22,6286.59272978355,U
+435,29087,Internorte,,frescao,cxe2,1,Jardim América,2305,29087.9636217354,U
+436,23996,MOBI-Rio,,brt,czs8,0,Terminal Recreio,51,23996.4190189756,U
+437,16566,Intersul,,regular,d0rh,1,Terminal Gentileza,167,16566.8773351086,U
+438,14300,Santa Cruz,,regular,d2fm,0,Santa Cruz,870,14300.6417649124,U
+439,39772,Santa Cruz,,regular,d4av,0,Terminal Deodoro,SN853,39772.0072353579,U
+440,26896,Internorte,,regular,d5ql,0,Méier,SV669,26896.3755269341,U
+441,19474,Transcarioca,,regular,d7ch,0,Barra da Tijuca,878,19474.5041799845,U
+442,14186,Intersul,,regular,d8423ed2-8b8c-49e4-a290-7db38ca33705,1,Candelária,209,14186.2700244425,U
+443,20856,Santa Cruz,,regular,davx,0,Terminal Pingo D'Água,SV866,20856.1536517351,U
+444,24773,Internorte,,regular,dbod,1,Terminal Margaridas,LECD141,24773.9753882574,U
+445,33625,Internorte,,regular,dcq8,0,Candelária,SN328,33625.7598341406,U
+446,15445,Intersul,,regular,de59,0,Circular,518,15445.5628672417,U
+447,15260,Transcarioca,,regular,dfa4e667-06fb-4d22-88e3-0a045f0e27a0,0,Downtown,900,15260.0477094866,U
+448,16018,Intersul,,regular,dgfi,1,Central do Brasil,LECD134,16018.5670006014,U
+449,22566,Santa Cruz,,regular,dgwb,0,Terminal Deodoro,765,22566.3963263566,U
+450,19075,Internorte,,regular,dk5r,0,Candelária,312,19075.7579149562,U
+451,30659,Transcarioca,,regular,dl64,0,Candelária,338,30659.8460312121,U
+452,14968,Santa Cruz,,regular,domd,0,Terminal Deodoro,791,14968.20548083,U
+453,20479,Transcarioca,,regular,dqe8,0,Circular,SP805,20479.0488599974,U
+454,31616,Santa Cruz,,regular,ds73,1,Senador Camará,926,31616.1518953361,U
+455,26528,Internorte,,frescao,dtsa,1,Ribeira,2343,26528.2214252035,U
+456,22324,Internorte,,regular,dyi4,1,Pavuna,687,22324.4291109269,U
+457,24002,MOBI-Rio,,regular,dyl3,1,Terminal Campo Grande,67,24002.1375337318,U
+458,39786,Santa Cruz,,regular,e1rd,1,Padre Miguel,SV391,39786.4333865118,U
+459,39468,MOBI-Rio,,brt,e4px,0,Terminal Alvorada,10,39468.0764126293,U
+460,25260,MOBI-Rio,,brt,e59t,0,Terminal Gentileza,61,25260.7900536965,U
+461,25200,MOBI-Rio,,brt,e636,1,Terminal Deodoro,60,25200.2966009574,U
+462,22823,Internorte,,regular,e63q,0,Largo do Machado,SN497,22823.3016858766,U
+463,32281,Santa Cruz,,regular,e9ed4c81-0e5d-4cea-850b-58621b3e49c0,1,Barra de Guaratiba,867,32281.9325795549,U
+464,29664,Internorte,,regular,ebg7,0,Bonsucesso,917,29664.6607164044,U
+465,39241,Internorte,,regular,ecoo,1,Pavuna,384,39241.7226819109,U
+466,39437,MOBI-Rio,,brt,eeg0,0,Terminal Alvorada,11,39437.6398989026,U
+467,78438,Santa Cruz,,frescao,efei,0,Carioca,2383,78438.0463255039,U
+468,21588,Internorte,,regular,egs0,0,Candelária,254,21588.41746283,U
+469,39453,Internorte,,regular,eh6x,0,Passeio,SR399,39453.1955365437,U
+470,24949,Transcarioca,,regular,ejp3,0,Saens Peña,636,24949.7618520958,U
+471,28518,Internorte,,regular,elhh,1,Pavuna,665,28518.0986724301,U
+472,39796,Internorte,,regular,elnd,0,Passeio,SN399,39796.5904449263,U
+473,17598,Santa Cruz,,regular,emux,1,Terminal Mato Alto,885,17598.8033301926,U
+474,50182,Santa Cruz,,regular,eq95,1,Bangu,SN393,50182.1897227379,U
+475,11017,Santa Cruz,,regular,erlf,0,Terminal Sulacap,SP803,11017.7615490866,U
+476,28987,Internorte,,regular,esb3,1,Padre Miguel,917,28987.3494106116,U
+477,9518,Internorte,,regular,esdd,1,Metrô Del Castilho,616,9518.37470915458,U
+478,33584,Internorte,,regular,esfq,0,Saens Peña,LECD147,33584.8125548532,U
+479,24856,Internorte,,regular,et6e,0,Bonsucesso,908,24856.0799769279,U
+480,51691,Santa Cruz,,frescao,eteu,1,Campo Grande,2339,51691.2007762687,U
+481,30388,MOBI-Rio,,brt,euhz,1,Estação Santa Cruz,20,30388.4989571367,U
+482,39126,Internorte,,regular,evji,0,Circular,622,39126.5940626036,U
+483,21892,MOBI-Rio,,brt,evqb,1,Terminal Paulo da Portela,35,21892.6656384282,U
+484,21824,Transcarioca,,regular,ewfe,1,Metrô Del Castilho,614,21824.5619672222,U
+485,22218,Transcarioca,,regular,ewxh,0,Recreio dos Bandeirantes,SN954,22218.7135773072,U
+486,28084,Transcarioca,,regular,ex6i,0,Terminal Alvorada,693,28084.9758385971,U
+487,33205,Santa Cruz,,regular,f112,0,Praça da República,SN383,33205.274119608,U
+488,30262,Santa Cruz,,regular,f4a56dcd-12b5-4aff-a189-b76f7c59694e,0,Campo Grande,898,30262.9447932595,U
+489,72033,Santa Cruz,,frescao,f57a,1,Campo Grande,2334,72033.719275833,U
+490,24779,Internorte,,regular,f6jq,1,Terminal Margaridas,LECD140,24779.5803549866,U
+491,45319,Santa Cruz,,regular,f72t,1,Bangu,393,45319.6794256652,U
+492,26286,Intersul,,regular,f82p,1,São Conrado,104,26286.670046967,U
+493,13342,Intersul,,regular,f922,0,Leme,LECD136,13342.1568486306,U
+494,15433,Intersul,,regular,ffdt,0,Central,100,15433.8325739623,U
+495,61131,Santa Cruz,,frescao,fgso,0,Carioca,2308,61131.8379060007,U
+496,14574,Internorte,,regular,fjo2,0,Circular,LECD126,14574.6779035616,S
+497,27872,Transcarioca,,regular,fknj,0,Candelária,341,27872.4687993504,U
+498,43479,Transcarioca,,regular,fl98,0,Rio Sul,553,43479.7238201963,U
+499,13502,Santa Cruz,,regular,fmqt,0,Terminal Deodoro,764,13502.8032301397,U
+500,11277,Intersul,,regular,fn4w,0,Carioca,217,11277.0747123122,U
+501,18908,Internorte,,regular,fnf4,1,Penha (IAPI),630,18908.4304952733,U
+502,21584,Intersul,,regular,fpsr,0,Copacabana,474,21584.1213515553,U
+503,35210,Santa Cruz,,regular,fptc,1,Terminal Magarça,855,35210.6433997142,U
+504,55251,Santa Cruz,,frescao,frp1,1,Vila Kennedy,2803,55251.2687294578,U
+505,21746,Intersul,,regular,fu85,0,Cosme Velho,SN422,21746.769808294,U
+506,36936,Transcarioca,,regular,fu9d,0,Metrô Del Castilho,613,36936.4741871118,U
+507,20545,Santa Cruz,,regular,fw7x,1,Campo Grande,SN825,20545.2426911495,U
+508,21696,Santa Cruz,,regular,g24g,0,Campo Grande,SN840,21696.983870596,U
+509,28029,Internorte,,regular,g3mz,0,Candelária,328,28029.559600646,U
+510,22757,Transcarioca,,regular,g54y,0,Terminal Alvorada,614,22757.169481441,U
+511,9410,Intersul,,regular,g621,0,Circular,513,9410.45805183008,U
+512,18482,Santa Cruz,,regular,g6hc,0,Santa Cruz,885,18482.5271753985,U
+513,28537,Internorte,,regular,g7s4,0,Praça Tiradentes,SN355,28537.9392630849,U
+514,20806,Internorte,,regular,g91l,0,Castelo,292,20806.5376258625,U
+515,29898,Santa Cruz,,regular,g9zs,0,Metrô Coelho Neto,770,29898.1128725338,U
+516,69847,Santa Cruz,,regular,gaaz,1,Cesarão,388,69847.9809885098,U
+517,79153,Santa Cruz,,frescao,gbda,0,Castelo,2337,79153.1715290669,U
+518,75089,Santa Cruz,,frescao,gbqf,0,Castelo,2335,75089.3837923472,U
+519,33829,Internorte,,regular,gctp,1,Acari,SN298,33829.3678878165,U
+520,30181,Transcarioca,,regular,gdmu,0,Circular,863,30181.0101981423,U
+521,25689,Transcarioca,,regular,gfi4,1,Méier,693,25689.3700276377,U
+522,19136,MOBI-Rio,,brt,ggo7,0,Terminal Alvorada,53,19136.8348692568,U
+523,9382,Intersul,,regular,gigd,0,Terminal Gentileza,SN133,9382.81501998087,U
+524,19390,MOBI-Rio,,brt,gn0s,1,Terminal Sulacap,53,19390.6749179512,U
+525,18907,Intersul,,regular,gnoq,0,Horto,409,18907.7685423408,U
+526,23960,MOBI-Rio,,brt,gq0l,0,Terminal Alvorada,31,23960.2097122397,U
+527,31682,MOBI-Rio,,brt,grp0,1,Terminal Pingo d'Água,12,31682.0298123054,U
+528,16640,Internorte,,regular,gt43,0,Terminal Fundão,SV922,16640.0258604823,U
+529,69063,Santa Cruz,,frescao,gwvf,1,Urucânia,2309,69063.4225233526,U
+530,18864,Internorte,,regular,gzrt,0,Leblon,SP404,18864.1604590156,U
+531,28537,Internorte,,regular,h1hq,0,Praça Tiradentes,355,28537.7597670801,U
+532,31846,Internorte,,regular,h6f6,1,Pavuna,SVB665,31846.1133766821,U
+533,23736,Internorte,,regular,h6yr,1,C. da Penha,498,23736.1267225679,U
+534,21672,Santa Cruz,,regular,h8wb,1,Jabour,SN803,21672.298731407,U
+535,12667,Internorte,,regular,h8ws,0,Cascadura,778,12667.2692170271,U
+536,11122,MOBI-Rio,,brt,hca3,0,Terminal Gentileza,80,11122.6906105818,U
+537,33057,Santa Cruz,,regular,hfpt,0,Marechal Hermes,SN731,33057.3008012098,U
+538,21138,Internorte,,regular,hgai,1,Terminal Fundão,SP635,21138.6408073724,U
+539,6286,MOBI-Rio,,brt,hj1m,1,Terminal Alvorada,22,6286.59272978355,U
+540,11618,MOBI-Rio,,brt,hj4d,1,Penha,80,11618.4069986341,U
+541,11920,Santa Cruz,,regular,hjpx,0,Terminal Campo Grande,845,11920.5778300163,U
+542,30884,Santa Cruz,,regular,hlf7,0,Terminal Campo Grande,SN867,30884.0839211138,U
+543,14737,Intersul,,regular,hq21,1,Metrô General Osório,100,14737.4392594956,U
+544,24961,Transcarioca,,regular,hqu9,0,Saens Peña,SN636,24961.7890113862,U
+545,42820,Internorte,,regular,hqyl,0,Praça da República,SN624,42820.2856643445,U
+546,22050,Internorte,,regular,hrdf,0,Terminal Madureira,780,22050.8168961596,U
+547,25008,Internorte,,regular,hsso,0,Copacabana,455,25008.9072884936,U
+548,10898,Santa Cruz,,regular,ht7o,0,Cabuçu de Baixo,834,10898.2090632901,U
+549,26583,Intersul,,regular,hz72,0,Circular,161,26583.0632462396,U
+550,32479,Santa Cruz,,regular,i074,0,Cascadura,737,32479.2908600053,U
+551,28245,Transcarioca,,regular,i145,1,Cidade de Deus,SN550,28245.0246490515,U
+552,37095,Santa Cruz,,regular,i4pd,1,Campo Grande,SN790,37095.7689050513,U
+553,25445,Transcarioca,,regular,i58u,0,Candelária,SV363,25445.0061736842,U
+554,11299,Santa Cruz,,regular,i62m,0,Campo Grande,830,11299.172872076,U
+555,9626,Internorte,,regular,i7ap,0,Terminal Margaridas,LECD143,9626.51139027939,U
+556,31555,Internorte,,regular,i9c1,1,Penha,SN483,31555.150046228,U
+557,17464,Transcarioca,,regular,i9sp,0,Jardim América,774,17464.2403756108,U
+558,21072,Santa Cruz,,regular,iijt,0,Terminal Campo Grande,856,21072.4236118229,U
+559,19421,Internorte,,regular,iird,0,Saens Peña,625,19421.3569486303,U
+560,25104,MOBI-Rio,,brt,ik1c,1,Terminal Deodoro,52,25104.5055697628,U
+561,38692,MOBI-Rio,,brt,iksw,1,Santa Cruz,11,38692.5696826267,U
+562,25207,MOBI-Rio,,brt,ilq4,0,Terminal Gentileza,60,25207.5090042078,U
+563,69582,Santa Cruz,,regular,imh1,0,Candelária,SR388,69582.1685368089,U
+564,28467,Transcarioca,,regular,io9a,1,Riocentro,611,28467.924882037,U
+565,30893,Santa Cruz,,regular,ioxb,0,Terminal Campo Grande,867,30893.7376437033,U
+566,18123,Internorte,,regular,ip79,1,Grotão,679,18123.2005372409,U
+567,74735,Santa Cruz,,frescao,iqhf,1,Terminal Campo Grande,2338,74735.5792695568,D
+568,23786,Internorte,,regular,ir41,0,Saens Peña,638,23786.9232350702,U
+569,52196,Santa Cruz,,frescao,is2i,0,Castelo,2339,52196.9765797821,U
+570,39931,Internorte,,regular,itq7,0,Passeio,385,39931.6003721326,U
+571,28223,Transcarioca,,regular,iu4f,1,Cidade de Deus,550,28223.6606905941,U
+572,6177,MOBI-Rio,,brt,ivlc,0,Jardim Oceânico,22,6177.46132459961,U
+573,22022,Intersul,,regular,iy3o,0,Jardim de Alah,426,22022.1641955422,U
+574,15669,MOBI-Rio,,brt,iygd,0,Estação Santa Cruz,17,15669.9742856016,U
+575,59778,Santa Cruz,,frescao,iyt3,1,Cosmos,2308,59778.4896815856,U
+576,32266,Santa Cruz,,regular,iyw2,0,Cascadura,790,32266.558229606,U
+577,14005,Internorte,,regular,j24j,1,Pavuna,778,14005.8238745199,U
+578,2669,Transcarioca,,regular,j2yo,1,Covanca,859,2669.78772429738,U
+579,25042,Internorte,,regular,j3td,0,Bananal,901,25042.7037966959,U
+580,15501,Intersul,,regular,j5m2,1,Saens Peña,416,15501.0639768219,U
+581,40032,Transcarioca,,regular,j7v9,1,Jardim Oceânico,343,40032.6001347044,U
+582,56874,Santa Cruz,,frescao,je1l,0,Barra da Tijuca,2804,56874.9879757911,U
+583,29669,Transcarioca,,frescao,je2j,1,Vila Valqueire,2345,29669.4306690889,U
+584,25353,Internorte,,regular,jgyw,0,Méier,LECD141,25353.2515370989,U
+585,25295,Intersul,,regular,jjcu,1,Saens Peña,LECD139,25295.4902663733,U
+586,17141,Internorte,,regular,jk1l,1,Água Santa,249,17141.8614682924,U
+587,15268,Internorte,,regular,jkzk,1,Terminal Deodoro,653,15268.5116931179,U
+588,26537,Transcarioca,,regular,jlpm,0,Rocinha,SPA550,26537.6043765531,U
+589,22778,Transcarioca,,frescao,jm5d,1,Terminal Alvorada,2614,22778.8204516012,U
+590,21394,Intersul,,regular,jmn6,0,Caju,SN209,21394.7835589098,U
+591,24539,Intersul,,regular,jmsv,0,Leblon,SN415,24539.3297318323,U
+592,23981,Transcarioca,,frescao,juwh,0,Metrô Del Castilho,2613,23981.5134541672,U
+593,32061,MOBI-Rio,,brt,jv6a,0,Terminal Alvorada,12,32061.5023017951,U
+594,22728,Santa Cruz,,regular,jyu0,0,Jesuítas,SN825,22728.5033901079,U
+595,27459,Transcarioca,,frescao,jz36,1,Gardênia Azul,2110,27459.7124052671,U
+596,26832,Intersul,,regular,k5v8,0,Terminal Gentileza,SN104,26832.1629997565,U
+597,27461,Santa Cruz,,regular,kb6o,0,Terminal Pingo D'Água,857,27461.1731159123,U
+598,9091,Santa Cruz,,regular,kbaz,1,Paciência,897,9091.29096741112,U
+599,12642,Internorte,,regular,kbnq,0,Terminal Fundão,SPB326,12642.0092147001,U
+600,27199,Internorte,,regular,kco2,1,Ribeira,324,27199.816715862,U
+601,18669,Transcarioca,,regular,kdrb,1,Madureira,LECD142,18669.9262326085,U
+602,25375,MOBI-Rio,,brt,kf99,0,Terminal Alvorada,25,25375.9055718577,U
+603,10326,Santa Cruz,,regular,kfj9,1,Rio da Prata,836,10326.9973022443,U
+604,21976,Intersul,,regular,kh0u,1,São Conrado,LECD131,21976.3615503354,U
+605,15972,Internorte,,regular,kh8i,1,Pavuna,793,15972.3036445267,U
+606,25410,Internorte,,regular,kk11,0,Castelo,350,25410.0787169789,U
+607,10233,Intersul,,regular,klcy,1,Usina,229,10233.934380534,U
+608,31483,Transcarioca,,regular,knff,0,Terminal Alvorada,SV692,31483.9440500529,U
+609,23039,Santa Cruz,,regular,kobu,1,Terminal Campo Grande,788,23039.6805244449,U
+610,73025,Santa Cruz,,frescao,kotz,1,Campo Grande,2334,73025.3820653265,U
+611,57741,Santa Cruz,,frescao,kq0s,0,Barra da Tijuca,2803,57741.133335934,U
+612,22804,Internorte,,regular,kq4p,0,Largo do Machado,497,22804.8621437977,U
+613,39200,Santa Cruz,,regular,kqcd,0,Praça da República,SV391,39200.525124448,U
+614,58821,Santa Cruz,,regular,kqe4,1,Sepetiba,757,58821.0540633927,U
+615,24397,Intersul,,regular,kqxr,1,Jacaré,474,24397.6676134405,U
+616,36364,Santa Cruz,,regular,ks4m,1,Terminal Mato Alto,853,36364.7457329586,U
+617,14065,MOBI-Rio,,frescao,kv8q,0,Terminal Gentileza,ESP01,14065.9796154129,U
+618,26090,Internorte,,regular,l0et,1,Bancários,321,26090.5898994504,U
+619,26124,Internorte,,regular,l1ko,0,Bonsucesso,SV908,26124.5957109277,U
+620,23432,Internorte,,regular,l2s8,1,Penha,623,23432.5826081258,U
+621,27899,Transcarioca,,regular,l447,1,Taquara,600,27899.3150233458,U
+622,22238,Intersul,,regular,l6yr,1,Triagem,472,22238.1707566826,U
+623,31737,Internorte,,regular,l8v6,1,Marechal Hermes,SN265,31737.628257622,U
+624,33059,Internorte,,regular,labi,1,Fundão,485,33059.2789995248,U
+625,76960,Santa Cruz,,frescao,lcnf,1,Santa Cruz,2335,76960.3956454703,U
+626,22939,Intersul,,regular,ld39,1,Saens Peña,410,22939.0349887273,U
+627,11618,MOBI-Rio,,brt,lfir,1,Penha,80,11618.4069986341,U
+628,16101,Internorte,,regular,lfis,1,Inhaúma,627,16101.1933963058,U
+629,16581,Internorte,,regular,lfjt,0,Saens Peña,627,16581.5461669138,U
+630,15995,Santa Cruz,,regular,lg3u,1,Padre Miguel,791,15995.4423303027,U
+631,31590,Transcarioca,,frescao,ll66,0,Castelo,2111,31590.9951247326,U
+632,18611,Internorte,,regular,llxx,0,Terminal Madureira,779,18611.5398094743,U
+633,33364,Transcarioca,,regular,lpl7,1,Taquara,338,33364.6553587174,U
+634,26872,Internorte,,frescao,lr7l,0,Castelo,2343,26872.4278280403,U
+635,30741,MOBI-Rio,,brt,lueg,0,Estação Salvador Allende,20,30741.0728119763,U
+636,21486,MOBI-Rio,,brt,luyz,0,Terminal Jardim Oceânico,18,21486.057853559,U
+637,26571,MOBI-Rio,,brt,lv1l,1,Terminal Fundão,42,26571.6510357597,U
+638,13019,Intersul,,regular,lw11,0,Horto,416,13019.438165717,U
+639,32757,Transcarioca,,regular,lw6k,0,Candelária,380,32757.4365570017,U
+640,33133,Internorte,,regular,lyjg,0,Saens Peña,635,33133.3778562892,U
+641,23034,Transcarioca,,regular,lzmk,0,Circular,651,23034.3442627282,U
+642,52887,Transcarioca,,regular,m138,1,Piabas,554,52887.6652907137,U
+643,25555,Transcarioca,,regular,m3ov,0,Circular,862,25555.8862324511,U
+644,30165,Transcarioca,,regular,m7zt,0,Gávea,SN565,30165.5406356396,U
+645,28411,Transcarioca,,regular,m9eb,1,Taquara,SN600,28411.0672025051,U
+646,22359,Transcarioca,,regular,mcb6,0,Gávea,555,22359.3332420985,U
+647,21165,Internorte,,regular,mcot,0,Castelo,239,21165.8692725558,U
+648,13530,Transcarioca,,regular,md4r,0,Terminal Alvorada,SN880,13530.3377154662,U
+649,21239,Transcarioca,,regular,mfed,0,Barra da Tijuca,SV878,21239.2063885067,U
+650,25032,MOBI-Rio,,brt,mhki,1,Terminal Mato Alto,13,25032.7996998918,U
+651,23956,Internorte,,regular,mi84,0,Maré,SN919,23956.4115401667,U
+652,33771,Transcarioca,,regular,mir4,1,Vargem Grande,613,33771.4771107085,U
+653,26452,Internorte,,regular,mirr,1,Bancários,326,26452.3674282437,U
+654,17657,MOBI-Rio,,brt,mji6,1,Terminal Margaridas,73,17657.6188306015,U
+655,25143,MOBI-Rio,,brt,mqyb,0,Terminal Alvorada,13,25143.228831633,U
+656,17603,Santa Cruz,,regular,mr7m,1,Terminal Mato Alto,SN885,17603.472393164,U
+657,14384,Santa Cruz,,regular,mrg9,1,Jesuítas,807,14384.587868753,U
+658,33578,Santa Cruz,,regular,msiy,0,Cascadura,SN790,33578.5352893361,U
+659,36608,Santa Cruz,,regular,mtwu,1,Terminal Mato Alto,SV853,36608.6979902161,U
+660,23089,Santa Cruz,,regular,muj7,0,Terminal Deodoro,798,23089.0817605033,U
+661,31581,Transcarioca,,regular,mvvp,0,Castelo,306,31581.6199241076,U
+662,28043,Internorte,,regular,mwml,0,General Osório,484,28043.7297225591,U
+663,10778,Intersul,,regular,mx00,0,Candelária,220,10778.8417323298,U
+664,24016,Transcarioca,,regular,mxko,1,Terminal Taquara,881,24016.903533758,U
+665,25707,Transcarioca,,regular,n2a4,0,Praça da República,371,25707.3684782787,U
+666,12090,Internorte,,regular,n2lt,1,Ribeira,SP324,12090.5276572053,U
+667,22385,Santa Cruz,,regular,n2uk,0,Madureira,SV777,22385.3131702868,U
+668,58139,Transcarioca,,regular,n371,0,Metrô Botafogo,SN554,58139.9319604938,U
+669,13857,Santa Cruz,,regular,n5hi,1,Sepetiba,870,13857.0836071571,U
+670,20926,Internorte,,regular,n5yp,1,Penha,SN497,20926.5468780582,U
+671,20913,Intersul,,regular,n6im,0,Cosme Velho,422,20913.8202730551,U
+672,19784,MOBI-Rio,,brt,n6ku,1,Terminal Paulo da Portela,35,19784.3328336158,U
+673,35972,Internorte,,regular,n76x,0,Castelo,378,35972.1141976129,U
+674,16040,Transcarioca,,regular,n7a5,1,Madureira,774,16040.198433829,U
+675,6177,MOBI-Rio,,brt,n7of,0,Jardim Oceânico,22,6177.46132459961,U
+676,14107,Santa Cruz,,regular,n9x4,1,Catiri,764,14107.5129445826,U
+677,12536,Intersul,,regular,nasu,0,Urca,107,12536.0194577413,U
+678,25153,MOBI-Rio,,brt,nd3r,1,Terminal Deodoro,61,25153.4061114602,U
+679,36371,Transcarioca,,regular,ndqy,0,Candelária,352,36371.1435760563,U
+680,24796,Intersul,,regular,ngt0,0,Gávea,435,24796.3760324704,U
+681,18609,Internorte,,regular,nh5h,1,Méier,688,18609.6153504528,U
+682,21828,Transcarioca,,frescao,nh83,0,Metrô Del Castilho,2614,21828.8058379695,U
+683,74716,Santa Cruz,,frescao,nige,1,Terminal Campo Grande,2338,74716.5859118147,U
+684,19620,Intersul,,regular,no3u,1,Meier,275,19620.1590227124,U
+685,18432,Santa Cruz,,regular,noc4,1,Terminal Campo Grande,864,18432.2475437813,U
+686,25618,Intersul,,regular,np2t,1,Jacaré,SV474,25618.9616472661,U
+687,33651,Internorte,,regular,npf6,1,Irajá,296,33651.0731123537,U
+688,52707,Santa Cruz,,regular,nq9r,0,Candelária,SR397,52707.8389046979,U
+689,29072,Internorte,,regular,ns9s,1,Pavuna,669,29072.2441065595,U
+690,42006,Transcarioca,,regular,nyir,0,Candelária,343,42006.6638966141,U
+691,13348,Internorte,,regular,o0gw,0,Terminal Fundão,SP324,13348.7038526158,U
+692,31659,Internorte,,frescao,o0it,0,Castelo,2305,31659.8010969576,U
+693,22145,Transcarioca,,regular,o0sw,0,Jardim América,LECD142,22145.1694604357,U
+694,36321,Internorte,,regular,o19c,1,Pavuna,SN399,36321.9817916563,U
+695,23464,MOBI-Rio,,brt,o3ss,0,Estação Salvador Allende,19,23464.4519607643,U
+696,13523,Transcarioca,,regular,o43a,1,Tijuquinha,SPB550,13523.605208291,U
+697,31493,Internorte,,regular,o56g,0,Castelo,349,31493.5169180028,U
+698,70220,Santa Cruz,,frescao,o5oj,1,Cesarão,2303,70220.7623180861,U
+699,6373,Intersul,,regular,o7sz,0,Cosme Velho,117,6373.72163012226,U
+700,12332,Santa Cruz,,regular,o9oj,1,Cantagalo,845,12332.9119778996,U
+701,34103,Internorte,,regular,ohhz,1,Honório Gurgel,SR362,34103.3786421647,U
+702,78953,Santa Cruz,,frescao,ohix,1,Sepetiba,2383,78953.2197096766,U
+703,39437,MOBI-Rio,,brt,oi19,0,Terminal Alvorada,11,39437.6398989026,U
+704,24549,Santa Cruz,,regular,ojdq,0,Cascadura,SN794,24549.3315978447,U
+705,16818,Santa Cruz,,regular,omtw,0,Terminal Deodoro,SP389,16818.3131581164,U
+706,27675,Internorte,,regular,on6n,1,Irajá,350,27675.888425415,U
+707,30164,Transcarioca,,regular,ooka,0,Gávea,565,30164.5170503286,U
+708,21271,Transcarioca,,regular,op8l,1,Cascadura,785,21271.6527785522,U
+709,39494,Internorte,,regular,or3g,0,Circular,621,39494.6252403035,U
+710,19319,Internorte,,regular,oreq,1,Bonsucesso,SVB901,19319.389592457,U
+711,26884,Internorte,,regular,oscy,1,Ribeira,325,26884.8285464408,U
+712,35123,Transcarioca,,regular,owey,0,Cidade de Deus,691,35123.2143771746,U
+713,19418,Internorte,,regular,owig,0,Méier,687,19418.6608076193,U
+714,29811,Internorte,,regular,owpb,0,Castelo,296,29811.1533234825,U
+715,41409,Internorte,,regular,oyun,0,Passeio,384,41409.2979428332,U
+716,30354,Transcarioca,,regular,ozzj,0,Gávea,550,30354.3161609956,U
+717,26243,Internorte,,regular,p500,0,General Osório,SPB483,26243.8604045153,U
+718,21372,Santa Cruz,,regular,p9es,0,Cascadura,794,21372.3877299577,U
+719,16170,Internorte,,regular,pbqn,0,Méier,679,16170.7886515513,U
+720,6475,Intersul,,regular,pcm0,1,Paula Matos,LECD135,6475.19219422032,U
+721,23314,Internorte,,regular,pcu3,0,Terminal Fundão,979,23314.6836841419,U
+722,54852,Santa Cruz,,frescao,pdyo,1,Bangu,2804,54852.2779945131,U
+723,11447,Intersul,,regular,pgdp,0,Candelária,210,11447.2518237188,U
+724,60324,Santa Cruz,,regular,pi3q,0,Metrô Coelho Neto,757,60324.4872988138,U
+725,15211,MOBI-Rio,,brt,pjdn,0,Madureira - Manacéia,42,15211.4942310377,U
+726,34050,Internorte,,regular,plmb,1,Metrô Pavuna,LECD147,34050.8961153268,U
+727,27330,Internorte,,regular,pp88,0,Candelária,324,27330.8043074178,U
+728,30093,Internorte,,regular,pttw,0,Saens Peña,629,30093.6663972196,U
+729,11122,MOBI-Rio,,brt,pxc0,0,Terminal Gentileza,80,11122.6906105818,U
+730,17399,MOBI-Rio,,brt,pxw5,0,Terminal Gentileza,73,17399.0399826652,U
+731,14702,Internorte,,regular,pxyb,0,Terminal Fundão,616,14702.4158643247,U
+732,20256,Transcarioca,,regular,pzbe,0,Terminal Alvorada,881,20256.9935368568,U
+733,8481,Internorte,,regular,pzn6,1,Bancários,SV921,8481.66747825709,U
+734,7698,Internorte,,regular,pzsi,0,Ribeira,921,7698.53267711347,U
+735,17514,MOBI-Rio,,brt,pzx5,0,Terminal Gentileza,70,17514.4625340747,U
+736,23202,Santa Cruz,,regular,q3tw,0,Terminal Deodoro,796,23202.8748414249,U
+737,67811,Santa Cruz,,frescao,q42g,0,Carioca,2309,67811.0855175131,U
+738,32565,Transcarioca,,regular,q4sb,0,Rio Sul,552,32565.879488596,U
+739,38991,Internorte,,regular,qd4x,0,Candelária,SR386,38991.9607595594,U
+740,29412,Internorte,,regular,qe24,1,Fundão,486,29412.2955698556,U
+741,35961,MOBI-Rio,,brt,qga2,1,Terminal Curral Falso,15,35961.0290808083,U
+742,21237,Internorte,,regular,qhyb,0,Largo do Machado,498,21237.0295253396,U
+743,74599,Santa Cruz,,frescao,qo22,1,Pedra de Guaratiba,2381,74599.958249116,U
+744,24848,Intersul,,regular,qppd,0,Copacabana,SV474,24848.010228182,U
+745,28802,Santa Cruz,,regular,qrd8,1,Campo Grande,771,28802.1673196149,U
+746,20612,Transcarioca,,regular,qsdk,0,Rio Comprido,607,20612.7137819732,U
+747,7635,Transcarioca,,regular,qtsf,0,Terminal Taquara,SV831,7635.39598578479,U
+748,20811,Internorte,,regular,qtz4,1,Penha (Grotão),313,20811.3929490634,U
+749,16772,Intersul,,regular,qu83,1,Rocinha,LECD138,16772.7749797676,U
+750,24073,Internorte,,regular,quyt,0,Bonsucesso,928,24073.575954413,U
+751,28234,Transcarioca,,regular,qyd7,1,Praça Seca,371,28234.1284620732,U
+752,40827,Transcarioca,,regular,qz86,1,Riocentro,SN368,40827.5696289056,U
+753,29029,MOBI-Rio,,brt,qzec,0,Terminal Alvorada,16,29029.4219957924,U
+754,24349,Santa Cruz,,regular,r19s,0,Terminal Deodoro,788,24349.3239030593,U
+755,30669,Transcarioca,,frescao,r2g7,0,Castelo,2112,30669.6730857066,U
+756,29572,Santa Cruz,,regular,r2mn,0,Metrô Coelho Neto,771,29572.3398862651,U
+757,21679,Internorte,,regular,r4m5,0,General Osório,SPA483,21679.3392237063,U
+758,19003,Internorte,,regular,r51k,0,Terminal Fundão,975,19003.4204602399,U
+759,40709,Internorte,,regular,r6y4,0,Passeio,SV384,40709.5934442274,U
+760,19643,MOBI-Rio,,brt,r7qw,1,Terminal Madureira,41,19643.3832183201,U
+761,20187,Internorte,,regular,r8oy,1,Olaria,625,20187.5760688472,U
+762,27748,Transcarioca,,regular,r9cs,1,Vila Valqueire,SV363,27748.6426394739,U
+763,27288,Transcarioca,,regular,raiu,0,Pontal,SN810,27288.9736262848,U
+764,19725,MOBI-Rio,,brt,rdr3,1,Terminal Madureira,40,19725.2674003726,U
+765,34269,Internorte,,regular,rdsw,0,Saens Peña,665,34269.7470424617,U
+766,37637,Transcarioca,,regular,rfpb,0,Candelária,SN368,37637.4506902636,U
+767,33322,Santa Cruz,,regular,rh14,0,Cascadura,SV790,33322.0283824449,U
+768,24157,MOBI-Rio,,brt,ripf,1,Terminal Deodoro,51,24157.0274593468,U
+769,16398,Internorte,,regular,rl3c,0,Terminal Sulacap,793,16398.1368636828,U
+770,22548,Internorte,,regular,roju,1,Pavuna,920,22548.3332113175,U
+771,19732,Internorte,,regular,rp0h,0,Praça Tiradentes,313,19732.2955135704,U
+772,22590,MOBI-Rio,,brt,rr22,0,Terminal Recreio,51,22590.0257322084,U
+773,38261,Internorte,,regular,rsza,1,Anchieta,SR386,38261.1118845364,U
+774,17693,Internorte,,regular,rux8,1,Metrô Pavuna,SN779,17693.4393011609,U
+775,25890,Transcarioca,,regular,s14y,0,Circular,652,25890.8702014975,U
+776,22901,Internorte,,regular,s54t,0,Pavuna,688,22901.696753936,U
+777,75824,Santa Cruz,,frescao,s6bw,1,Terminal Campo Grande,2338,75824.0638063164,U
+778,8774,Santa Cruz,,regular,s7hi,0,Bangu,819,8774.6447861198,U
+779,8060,Intersul,,regular,s7v5,0,Cosme Velho,165,8060.13942568708,U
+780,11717,Santa Cruz,,regular,s888,1,Paciência,842,11717.6383902686,U
+781,2709,Intersul,,regular,s8x3,1,Saens Peña,626,2709.8847817116,U
+782,7325,Internorte,,regular,sapl,0,Nova América,628,7325.25916922149,U
+783,26842,Intersul,,regular,sc8o,0,Terminal Gentileza,104,26842.1442008538,U
+784,16851,MOBI-Rio,,regular,sgno,0,Curral Falso,28,16851.6624107171,U
+785,40450,Santa Cruz,,regular,sjnn,0,Candelária,369,40450.492182131,U
+786,16982,Santa Cruz,,regular,snbu,0,Cesarão,871,16982.4137849258,U
+787,27691,Internorte,,regular,so3z,1,Abolição,457,27691.953051752,U
+788,75677,Santa Cruz,,frescao,sqcl,0,Castelo,2335,75677.7367309467,D
+789,36013,Transcarioca,,regular,srir,1,Terminal Gentileza,302,36013.2395081866,U
+790,19291,Intersul,,regular,sw2e,1,Terminal Gentileza,169,19291.2000638373,U
+791,13077,Santa Cruz,,regular,sz5w,0,Campo Grande,868,13077.9991991252,U
+792,17381,Internorte,,regular,sz6e,0,Circular,LECD144,17381.1956688321,U
+793,21528,Internorte,,regular,t10v,1,Penha,SN312,21528.6513596808,U
+794,10554,Intersul,,regular,t1t4,1,Usina,220,10554.3264870016,U
+795,22751,Intersul,,regular,t4p7,0,Gávea,LECD139,22751.6355482688,U
+796,33345,Transcarioca,,regular,t5qp,1,Vila Valqueire,SN363,33345.750143962,U
+797,13362,Intersul,,regular,t61v,0,São Conrado,448,13362.294594223,U
+798,31743,Internorte,,regular,t9rs,1,Marechal Hermes,265,31743.8523542035,U
+799,36281,MOBI-Rio,,brt,tbpx,0,Terminal Alvorada,15,36281.301618084,U
+800,30431,Transcarioca,,regular,tbv0,1,Méier,691,30431.6881274466,U
+801,33955,Santa Cruz,,regular,tc4u,0,Terminal Deodoro,855,33955.726403306,U
+802,9493,Intersul,,regular,tdv7,1,Silvestre,007,9493.04913425376,U
+803,16312,Transcarioca,,regular,tffm,1,Metrô Del Castilho,610,16312.9548168774,U
+804,24026,Intersul,,regular,tggb,1,Usina,426,24026.1200583327,U
+805,19889,Transcarioca,,regular,tgk4,0,Vargem Grande,SP810,19889.8613381736,U
+806,20929,Internorte,,regular,thqu,1,Penha,497,20929.6561998084,U
+807,11902,Transcarioca,,regular,tmtr,1,Terminal Deodoro,783,11902.4145032767,U
+808,39843,Internorte,,regular,tmul,1,Pavuna,SV384,39843.4535429164,U
+809,8262,Internorte,,regular,to6s,1,Bancários,921,8262.9601067975,U
+810,29292,Transcarioca,,regular,toav,1,Vila Valqueire,363,29292.8531850416,U
+811,54391,Santa Cruz,,regular,tolo,0,Candelária,SN397,54391.3681207058,U
+812,4658,Intersul,,regular,tpq2,0,Metrô Saens Peña,608,4658.21611777146,U
+813,24307,Internorte,,regular,tpyl,0,Candelária,277,24307.5060189615,U
+814,35557,Internorte,,regular,trcm,0,Praça da Bandeira,624,35557.8125187806,U
+815,18861,Internorte,,regular,ts8r,1,Metrô Pavuna,780,18861.0479320983,U
+816,4822,Intersul,,regular,ttpq,1,Usina,603,4822.42445317316,U
+817,10755,Intersul,,regular,twhu,1,Caju,210,10755.3494117268,U
+818,10591,Transcarioca,,regular,twss,0,Tanque,932,10591.0986287912,U
+819,30398,Internorte,,regular,txxp,0,General Osório,SN483,30398.6534038322,U
+820,74060,Santa Cruz,,frescao,tz7w,0,Castelo,2381,74060.0933116543,U
+821,28670,Internorte,,regular,tzpe,1,Pavuna,SV669,28670.4009417642,U
+822,8657,Intersul,,regular,u0s0,1,Terminal Gentileza,165,8657.71427271254,U
+823,32426,MOBI-Rio,,brt,u0sq,0,Terminal Recreio,14,32426.0092184038,U
+824,26325,Transcarioca,,regular,u32c,0,Candelária,SN363,26325.7702079839,U
+825,24304,Transcarioca,,regular,u35l,0,Madureira,940,24304.6716565086,U
+826,33657,Internorte,,regular,u3rq,0,Castelo,298,33657.5243247117,U
+827,32151,Internorte,,regular,u57a,0,Prado Júnior,492,32151.0001875364,U
+828,24687,Internorte,,regular,u6d2,0,Méier,LECD140,24687.7129084109,U
+829,28973,Santa Cruz,,regular,u9cp,0,Terminal Pingo D'Água,SN857,28973.2881497034,U
+830,5636,Intersul,,regular,uckl,1,Grajaú,608,5636.3282484312,U
+831,11291,Internorte,,regular,udda,1,Bancários,SPB326,11291.0927437849,U
+832,26578,Internorte,,regular,udtw,0,Candelária,326,26578.0079453229,U
+833,30324,Transcarioca,,regular,udwv,0,Gávea,SN550,30324.8174834071,U
+834,21327,Internorte,,regular,ue02,1,Irajá,629,21327.3530534978,U
+835,16099,Intersul,,regular,ugji,0,Leme,LECD138,16099.1863057666,U
+836,7838,Intersul,,regular,uhal,0,Central do Brasil,LECD135,7838.45371716823,U
+837,21239,Transcarioca,,regular,uhhm,0,Barra da Tijuca,SN878,21239.4466441872,U
+838,28669,Internorte,,regular,uk1b,1,Jardim América,342,28669.7508430079,U
+839,26148,Transcarioca,,regular,ule3,1,Terminal Tanque,SV878,26148.659183452,U
+840,35998,Transcarioca,,regular,ulor,1,Terminal Gentileza,SN302,35998.5377449041,U
+841,17630,Transcarioca,,regular,updj,1,Rio das Pedras,SN861,17630.6209477683,U
+842,44824,Santa Cruz,,regular,uth8,0,Candelária,SN393,44824.4892615187,U
+843,18696,Internorte,,regular,utu7,1,Tubiacanga,SV922,18696.8985268738,U
+844,28031,Internorte,,regular,uu8v,0,Castelo,327,28031.1899473102,U
+845,9487,Internorte,,regular,uueh,1,Penha,628,9487.95259926966,U
+846,26279,Internorte,,regular,uuob,0,Bangu,799,26279.0024355629,U
+847,23955,Santa Cruz,,regular,uuxm,0,Campo Grande,804,23955.2759538215,U
+848,30363,Internorte,,regular,uxpb,1,Abolição,SN457,30363.1921786856,U
+849,24638,Santa Cruz,,regular,uzfr,0,Circular,743,24638.2114893612,U
+850,28849,Transcarioca,,regular,v1b9,1,Méier,SV692,28849.4323515424,U
+851,37792,Internorte,,regular,v25v,1,Pavuna,SR399,37792.6530530505,U
+852,38617,MOBI-Rio,,brt,v2bf,1,Estação Santa Cruz,10,38617.6548034012,U
+853,19189,Internorte,,regular,v2mp,1,Olaria,312,19189.0848039544,U
+854,26735,Internorte,,regular,v2xj,0,Candelária,329,26735.0795878274,U
+855,26067,Santa Cruz,,regular,v3g0,1,Barra de Guaratiba,SV899,26067.0611118687,U
+856,28895,Transcarioca,,regular,v5ag,0,Saens Peña,600,28895.3703512559,U
+857,41246,Transcarioca,,regular,v86l,1,Recreio dos Bandeirantes,553,41246.3485577539,U
+858,23578,Transcarioca,,regular,vajz,1,Merck,SN636,23578.4464069586,U
+859,32402,Internorte,,regular,vb1g,0,Castelo,342,32402.7133390138,U
+860,17814,Intersul,,regular,vb4w,0,General Osório,169,17814.3141171678,U
+861,24854,Internorte,,regular,vc79,0,Bonsucesso,SN908,24854.0501561425,U
+862,35890,Internorte,,regular,vdjk,1,Ribeira,SN324,35890.0221409367,U
+863,29082,Transcarioca,,regular,vhcw,1,Praça Seca,306,29082.3578227577,U
+864,24137,Santa Cruz,,regular,vhm4,0,Circular,741,24137.5061362137,U
+865,38306,Internorte,,regular,vibz,1,Anchieta,386,38306.9852222611,U
+866,22012,Internorte,,regular,vjqf,0,Candelária,311,22012.4249685093,U
+867,29108,Internorte,,regular,vofu,1,Madureira,355,29108.0372737274,U
+868,33478,Transcarioca,,frescao,voyc,1,Taquara,2112,33478.3314937616,U
+869,21257,Internorte,,regular,vr31,0,Terminal Madureira,SN779,21257.7371064878,U
+870,23903,Transcarioca,,frescao,vtie,0,Castelo,2114,23903.0028808281,U
+871,32103,Transcarioca,,regular,vw93,1,Gardênia Azul,SN353,32103.9693234129,U
+872,11369,Transcarioca,,regular,vy32,1,Terminal Alvorada,805,11369.1921084203,U
+873,26417,Internorte,,regular,vz7o,1,Bonsucesso,901,26417.0804775663,U
+874,18225,Internorte,,regular,w0m5,0,Carioca,249,18225.7186558402,U
+875,9619,Santa Cruz,,regular,w20q,0,Circular,SN848,9619.7037014654,U
+876,10862,Santa Cruz,,regular,w3e5,1,Carobinha,826,10862.5456755835,U
+877,22083,Santa Cruz,,regular,w3md,1,São Fernando,SN840,22083.4703835905,U
+878,9981,MOBI-Rio,,brt,w3rb,0,Terminal Gentileza,90,9981.25905948293,U
+879,9695,Internorte,,regular,w4l8,0,Ribeira,SV921,9695.30030942692,U
+880,32927,Internorte,,regular,w5i6,0,Candelária,SN324,32927.2607564768,U
+881,56908,Transcarioca,,regular,w7yl,1,Piabas,SN554,56908.3863595359,U
+882,74352,Santa Cruz,,frescao,w918,0,Castelo,2334,74352.1340342138,U
+883,25233,Internorte,,frescao,w98c,0,Castelo,2344,25233.9547507364,U
+884,26453,Transcarioca,,regular,wf1d,0,Candelária,363,26453.7295907017,U
+885,32027,Transcarioca,,regular,wg7g,0,Terminal Gentileza,353,32027.9823893853,U
+886,23519,MOBI-Rio,,regular,wh45,0,Terminal Deodoro,67,23519.3038023756,U
+887,24749,Santa Cruz,,regular,wk5x,0,Terminal Campo Grande,SN884,24749.3540021565,U
+888,21971,Internorte,,regular,wkn5,1,Terminal Deodoro,SN908,21971.3690377542,U
+889,10614,Transcarioca,,regular,womw,1,Rio das Pedras,SN880,10614.5240277498,U
+890,27074,Intersul,,regular,wpd1,1,Usina,415,27074.6121716171,U
+891,26446,Internorte,,regular,wqyu,0,Copacabana,457,26446.5530831212,U
+892,18902,Intersul,,regular,wrbl,1,Saens Peña,409,18902.3654532736,U
+893,8906,Intersul,,regular,wu1v,1,Silvestre,006,8906.27897533491,U
+894,27340,Internorte,,regular,wv6w,1,Bancários,329,27340.9881845084,U
+895,13527,Internorte,,regular,wv94,0,Cascadura,721,13527.8131738857,U
+896,29112,Internorte,,regular,wwp0,0,Castelo,323,29112.5200025607,U
+897,27260,Internorte,,regular,wyq4,0,Engenho da Rainha,946,27260.2112553734,U
+898,34012,Internorte,,regular,x0c0,1,Jardim América,639,34012.5499743276,U
+899,27652,Internorte,,frescao,x0qr,0,Castelo,2342,27652.0217368266,U
+900,30742,Internorte,,regular,x5m3,1,Rocha Miranda,711,30742.7238182838,U
+901,7924,Transcarioca,,regular,xary,0,Terminal Taquara,865,7924.07548998985,U
+902,29146,Internorte,,regular,xd0a,1,Metrô Pavuna,799,29146.0299431867,U
+903,14018,MOBI-Rio,,brt,xh8z,0,Jardim Oceânico,50,14018.5092261865,U
+904,18979,Internorte,,regular,xj7m,0,Saens Peña,SP635,18979.7224903553,U
+905,29077,Transcarioca,,frescao,xk9c,1,Praça Seca,2111,29077.9295577494,U
+906,28935,Transcarioca,,regular,xl90,0,Saens Peña,SN600,28935.8090735999,U
+907,7649,Santa Cruz,,regular,xnca,0,Terminal Pingo D'Água,897,7649.14699203251,U
+908,50446,Santa Cruz,,regular,xnjt,1,Terminal Campo Grande,SR397,50446.9520852794,U
+909,27078,Internorte,,regular,xopn,1,Terminal Margaridas,LECD148,27078.6490779699,U
+910,15742,Transcarioca,,regular,xqdu,0,Gávea,SPB550,15742.9674185577,U
+911,10181,Transcarioca,,regular,xrka,1,Cascadura,712,10181.2398105303,U
+912,2920,Transcarioca,,regular,xug4,0,Geremário Dantas,859,2920.46942144633,U
+913,24721,Internorte,,regular,xux8,0,Fundão,663,24721.0608254065,U
+914,20331,Internorte,,regular,y3kj,0,Bananal,SVB901,20331.2834320888,U
+915,34146,Internorte,,regular,ya62,1,Honório Gurgel,362,34146.659593155,U
+916,32297,Intersul,,regular,yfk2,1,Méier,SN474,32297.5242705375,U
+917,24093,MOBI-Rio,,brt,yfz0,1,Vicente de Carvalho,31,24093.9825208343,U
+918,21524,Transcarioca,,regular,ygz1,1,Rio das Pedras,555,21524.3077011175,U
+919,24992,MOBI-Rio,,brt,yi6q,1,Terminal Mato Alto,25,24992.3821178591,U
+920,8392,Santa Cruz,,regular,yiae,1,Terminal Campo Grande,834,8392.92825423858,U
+921,26203,Santa Cruz,,regular,yjja,1,Sepetiba,SN884,26203.9356404435,U
+922,11337,Santa Cruz,,regular,yni7,1,Campo Grande,841,11337.6667450978,U
+923,19665,MOBI-Rio,,brt,ypaj,0,Terminal Recreio,41,19665.2336543219,U
+924,25355,Santa Cruz,,regular,yq3s,1,Jabour,SN794,25355.1867703967,U
+925,28998,Internorte,,regular,yq9b,0,Castelo,265,28998.0421359909,U
+926,9091,Santa Cruz,,regular,yqse,0,Terminal Campo Grande,836,9091.62601217334,U
+927,47084,Santa Cruz,,frescao,yr13,0,Candelária,2310,47084.2992171894,U
+928,80243,Santa Cruz,,frescao,yszc,1,Santa Cruz,2337,80243.0258006828,U
+929,29032,Internorte,,regular,yyzu,0,General Osório,485,29032.5060501463,U
+930,22965,Intersul,,regular,z1hi,1,Grajaú,SN422,22965.5846085036,U
+931,17620,Santa Cruz,,regular,z1vr,0,Bangu,812,17620.5012091296,U
+932,31373,Santa Cruz,,regular,z4eg,0,Circular,872,31373.1389781989,U
+933,15588,Internorte,,regular,z4mz,0,Terminal Deodoro,SP795,15588.9925876227,U
+934,16805,Transcarioca,,regular,z6mq,1,Jardim América,775,16805.5552907286,U
+935,34266,Internorte,,regular,z6z2,0,Praia do Dendê,SN696,34266.9198128583,U
+936,26552,Intersul,,regular,z76o,0,Circular,461,26552.6213286364,U
+937,26280,Intersul,,regular,za5f,1,São Conrado,SN104,26280.4500174754,U
+938,11766,Internorte,,regular,zaiq,0,Terminal Fundão,SP329,11766.9034942845,U
+939,25147,Intersul,,regular,zax1,0,Terminal Gentileza,LECD131,25147.9176440801,U
+940,32607,Internorte,,regular,zb0m,1,Acari,298,32607.704985646,U
+941,30826,Internorte,,regular,zbau,0,Praia do Dendê,696,30826.4140486325,U
+942,22134,Internorte,,regular,zfaz,0,Engenho Novo,650,22134.5020260906,U
+943,35339,Transcarioca,,regular,zi9f,0,Terminal Alvorada,SN302,35339.2119745112,U
+944,69786,Santa Cruz,,regular,zjbd,1,Cesarão,SR388,69786.7575021352,U
+945,25200,MOBI-Rio,,brt,zk7r,1,Terminal Deodoro,60,25200.2966009574,U
+946,18518,Santa Cruz,,regular,zn9t,1,Largo do Mendanha,812,18518.1038288913,U
+947,21055,Transcarioca,,regular,znd4,1,Terminal Taquara,954,21055.8378122761,U
+948,10889,Santa Cruz,,regular,zppc,0,Campo Grande,842,10889.4298187857,U
+949,22787,Transcarioca,,frescao,zrt9,1,Freguesia,2114,22787.84271656,U
+950,22227,Internorte,,regular,zru7,0,Tiradentes,335,22227.1094286446,U
+951,15468,Intersul,,regular,zsg4,0,Urca,167,15468.5945721559,U
+952,10374,Transcarioca,,regular,ztj0,0,Praça Seca,783,10374.5018923212,U
+953,30066,Transcarioca,,regular,zycy,1,Terminal Alvorada,LECD129,30066.2912597512,U
