@@ -10,6 +10,9 @@ import pyarrow as pa
 import numpy as np
 import plotly.express as px
 
+## Título da página,layout
+st.set_page_config(page_title="GPS - Ônibus RJ")
+
 @st.cache_data(ttl=14)
 def localiza_linha(linha):
     url = "https://dados.mobilidade.rio/gps/sppo"
