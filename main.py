@@ -5,6 +5,10 @@ import streamlit as st
 import pydeck as pdk
 import json
 from collections import defaultdict
+import pyarrow.parquet as pq
+import pyarrow as pa
+import numpy as np
+import plotly.express as px
 
 @st.cache_data(ttl=14)
 def localiza_linha(linha):
@@ -84,6 +88,29 @@ def carrega_itinerario(path, servico):
         })
 
     return geojson_filtrado, destinos
+
+@st.cache_data
+def tempo_medio_viagem(df,linha,tipo_dia,sentido):
+    bins=np.linspace(0,24,25)
+    labels=['0h-1h','1h-2h','2h-3h','3h-4h','4h-5h','5h-6h','6h-7h','7h-8h','8h-9h','9h-10h','10h-11h','11h-12h','12h-13h','13h-14h','14h-15h','15h-16h',
+    '16h-17h','17h-18h','18h-19h','19h-20h','20h-21h','21h-22h','22h-23h','23h-24h']
+    viagem_linha = df[(df['servico'] == linha) & (df['tipo_dia'] == tipo_dia) & (df['sentido'] == sentido)]
+
+    viagem_linha['faixa_horaria'] = pd.cut(
+    viagem_linha['datetime_partida'].dt.hour,
+    bins=bins,
+    labels=labels,
+    right=False  # intervalo fechado à esquerda: [6h, 9h)
+    )
+
+    resultado = viagem_linha.groupby('faixa_horaria')['tempo_viagem'].median().reset_index(name='mediana_tempo_viagem')
+
+    return resultado
+
+#Leitura de parquet com dados de todas as viagens entre 01/01/2026 e 18/05/2026
+tabela = pq.read_table('viagem_onibus.parquet')
+tabela = tabela.replace_schema_metadata({})  
+df_dados_viagens = tabela.to_pandas(date_as_object=True)
 
 def main():
     
@@ -210,6 +237,55 @@ def main():
                 )      
 
                 map_placeholder.pydeck_chart(chart)
+
+            with st.container(border=True):
+
+                st.markdown(
+                """
+                <style>
+                .centered-text {
+                    text-align: center;
+                    font-size: 28px;
+                }
+                </style>
+                <div class="centered-text">
+                    Tempos esperados de viagens<br>
+                </div>
+                """,
+                unsafe_allow_html=True
+                )
+
+                tipo_dia = st.selectbox(
+                label='Tipo de dia',
+                options=df_dados_viagens['tipo_dia'].unique(),
+                index=None,
+                placeholder='Opções'
+                )
+                resultado_ida = tempo_medio_viagem(df_dados_viagens,linha,tipo_dia,'I')
+                resultado_volta = tempo_medio_viagem(df_dados_viagens,linha,tipo_dia,'V')
+
+                fig_ida = px.bar(
+                    resultado_ida,
+                    x='faixa_horaria',
+                    y='mediana_tempo_viagem',
+                    barmode='group', 
+
+                )
+                fig_ida.update_layout(yaxis=dict(title='Tempo de viagem em minutos'), xaxis=dict(title='Horário'),title_text=f'Tempo de viagem no sentido {destinos[linha][0]["destino"]}')
+
+                fig_volta = px.bar(
+                    resultado_volta,
+                    x='faixa_horaria',
+                    y='mediana_tempo_viagem',
+                    barmode='group', 
+
+                )
+                fig_volta.update_layout(yaxis=dict(title='Tempo de viagem em minutos'), xaxis=dict(title='Horário'), title_text=f'Tempo de viagem no sentido {destinos[linha][1]["destino"]}')
+
+                st.plotly_chart(fig_ida)
+                st.plotly_chart(fig_volta)
+
+
 
             time.sleep(30)
             st.rerun()
