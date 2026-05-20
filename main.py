@@ -11,7 +11,7 @@ import numpy as np
 import plotly.express as px
 
 ## Título da página,layout
-st.set_page_config(page_title="GPS - Ônibus RJ")
+st.set_page_config(page_title="GPS Rio Ônibus")
 
 @st.cache_data(ttl=14)
 def localiza_linha(linha):
@@ -103,12 +103,20 @@ def tempo_medio_viagem(df,linha,tipo_dia,sentido):
     viagem_linha['datetime_partida'].dt.hour,
     bins=bins,
     labels=labels,
-    right=False  # intervalo fechado à esquerda: [6h, 9h)
+    right=False 
     )
 
-    resultado = viagem_linha.groupby('faixa_horaria')['tempo_viagem'].median().reset_index(name='mediana_tempo_viagem')
+    resultado = viagem_linha.groupby('faixa_horaria', observed=False, sort=True)['tempo_viagem'].median().reset_index(name='mediana_tempo_viagem')
 
-    return resultado
+    resultado['faixa_horaria'] = pd.Categorical(resultado['faixa_horaria'], categories=labels, ordered=True)
+    resultado = resultado.sort_values('faixa_horaria')
+    resultado['faixa_horaria'] = resultado['faixa_horaria'].astype(str)
+
+
+    resultado['tempo_formatado'] = resultado['mediana_tempo_viagem'].apply(
+    lambda s: f"{int(s // 60):02d}:{int(s % 60):02d}" if pd.notna(s) else '')
+
+    return resultado, labels
 
 #Leitura de parquet com dados de todas as viagens entre 01/01/2026 e 18/05/2026
 tabela = pq.read_table('viagem_onibus.parquet')
@@ -264,26 +272,32 @@ def main():
                 index=None,
                 placeholder='Opções'
                 )
-                resultado_ida = tempo_medio_viagem(df_dados_viagens,linha,tipo_dia,'I')
-                resultado_volta = tempo_medio_viagem(df_dados_viagens,linha,tipo_dia,'V')
+                resultado_ida, labels = tempo_medio_viagem(df_dados_viagens,linha,tipo_dia,'I')
+                resultado_volta,_ = tempo_medio_viagem(df_dados_viagens,linha,tipo_dia,'V')
+
+                print(resultado_ida['faixa_horaria'].dtype)
+                print(resultado_ida)
 
                 fig_ida = px.bar(
                     resultado_ida,
                     x='faixa_horaria',
                     y='mediana_tempo_viagem',
-                    barmode='group', 
+                    text='tempo_formatado',
+                    barmode='group',
+                    category_orders={'faixa_horaria': resultado_ida['faixa_horaria'].tolist()} 
 
                 )
-                fig_ida.update_layout(yaxis=dict(title='Tempo de viagem em minutos'), xaxis=dict(title='Horário'),title_text=f'Tempo de viagem no sentido {destinos[linha][0]["destino"]}')
+                fig_ida.update_layout(yaxis=dict(title='Tempo de viagem', showticklabels=False), xaxis=dict(title='Horário'), title_text=f'Tempo de viagem no sentido {destinos[linha][0]["destino"]}')
 
                 fig_volta = px.bar(
                     resultado_volta,
                     x='faixa_horaria',
                     y='mediana_tempo_viagem',
-                    barmode='group', 
-
+                    text='tempo_formatado',
+                    barmode='group',
+                    category_orders={'faixa_horaria': resultado_ida['faixa_horaria'].tolist()}
                 )
-                fig_volta.update_layout(yaxis=dict(title='Tempo de viagem em minutos'), xaxis=dict(title='Horário'), title_text=f'Tempo de viagem no sentido {destinos[linha][1]["destino"]}')
+                fig_volta.update_layout(yaxis=dict(title='Tempo de viagem', showticklabels=False), xaxis=dict(title='Horário'), title_text=f'Tempo de viagem no sentido {destinos[linha][1]["destino"]}')
 
                 st.plotly_chart(fig_ida)
                 st.plotly_chart(fig_volta)
