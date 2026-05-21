@@ -38,9 +38,9 @@ O conteúdo do painel é exibido em uma página única, com a visualização dos
 
 ### Imagens
 
-![Visualização de dados no painel](/Figura1.jpeg "Informações do painel de natureza operacional")
+![Visualização de dados no painel](/Figura1.jpeg "Informações das linhas de ônibus")
 
-![Visualização de dados no painel](/Figura2.jpeg "Informações do painel de natureza operacional")
+![Visualização de dados no painel](/Figura2.jpeg "Informações das linhas de ônibus")
 
 
 
