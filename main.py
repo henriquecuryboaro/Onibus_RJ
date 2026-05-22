@@ -9,6 +9,7 @@ import pyarrow.parquet as pq
 import pyarrow as pa
 import numpy as np
 import plotly.express as px
+import plotly.graph_objects as go
 
 ## Título da página,layout
 st.set_page_config(page_title="GPS Rio Ônibus")
@@ -106,14 +107,21 @@ def tempo_medio_viagem(df,linha,tipo_dia,sentido):
     right=False 
     )
 
-    resultado = viagem_linha.groupby('faixa_horaria', observed=False, sort=True)['tempo_viagem'].median().reset_index(name='mediana_tempo_viagem')
+    resultado = viagem_linha.groupby('faixa_horaria', observed=False, sort=True)['tempo_viagem'] \
+        .agg(
+            q1_tempo_viagem=lambda x: x.quantile(0.25),
+            q3_tempo_viagem=lambda x: x.quantile(0.75)
+        ).reset_index()
 
     resultado['faixa_horaria'] = pd.Categorical(resultado['faixa_horaria'], categories=labels, ordered=True)
     resultado = resultado.sort_values('faixa_horaria')
     resultado['faixa_horaria'] = resultado['faixa_horaria'].astype(str)
 
 
-    resultado['tempo_formatado'] = resultado['mediana_tempo_viagem'].apply(
+    resultado['q1_formatado'] = resultado['q1_tempo_viagem'].apply(
+    lambda s: f"{int(s // 60):02d}:{int(s % 60):02d}" if pd.notna(s) else '')
+
+    resultado['q3_formatado'] = resultado['q3_tempo_viagem'].apply(
     lambda s: f"{int(s // 60):02d}:{int(s % 60):02d}" if pd.notna(s) else '')
 
     return resultado, labels
@@ -244,7 +252,7 @@ def main():
                 chart = pdk.Deck(
                     layers=[layerlinha1, layerlinha2, scatter_layer, text_layer],
                     initial_view_state=view,
-                    tooltip={"text": "Identificador: {ordem}\nVelocidade: {velocidade}km/h\nSentido: {destino}"},
+                    tooltip={"text": "Identificador: {ordem}\Velocidade: {velocidade}km/h\nSentido: {destino}"},
                 )      
 
                 map_placeholder.pydeck_chart(chart)
@@ -275,34 +283,64 @@ def main():
                 resultado_ida, labels = tempo_medio_viagem(df_dados_viagens,linha,tipo_dia,'I')
                 resultado_volta,_ = tempo_medio_viagem(df_dados_viagens,linha,tipo_dia,'V')
 
-                print(resultado_ida['faixa_horaria'].dtype)
-                print(resultado_ida)
+                fig_ida = go.Figure()
 
-                fig_ida = px.bar(
-                    resultado_ida,
-                    x='faixa_horaria',
-                    y='mediana_tempo_viagem',
-                    text='tempo_formatado',
-                    barmode='group',
-                    category_orders={'faixa_horaria': resultado_ida['faixa_horaria'].tolist()} 
+                fig_ida.add_trace(go.Bar(
+                    x=resultado_ida['faixa_horaria'],
+                    y=resultado_ida['q3_tempo_viagem'],
+                    text=resultado_ida['q3_formatado'],
+                    textposition='outside',
+                    showlegend=False,
+                    marker_color='lightblue',
+                ))
 
+                fig_ida.add_trace(go.Bar(
+                    x=resultado_ida['faixa_horaria'],
+                    y=resultado_ida['q1_tempo_viagem'],
+                    text=resultado_ida['q1_formatado'],
+                    textfont=dict(color='black'),
+                    textposition='outside',
+                    showlegend=False,
+                    marker_color='steelblue',
+                ))
+
+                fig_ida.update_layout(
+                    barmode='overlay',  # sobreposição
+                    yaxis=dict(title='Tempo de viagem', showticklabels=False),
+                    xaxis=dict(title='Horário', categoryorder='array', categoryarray=resultado_ida['faixa_horaria'].tolist()),
+                    title_text=f'Tempo de viagem no sentido {destinos[linha][0]["destino"]}'
                 )
-                fig_ida.update_layout(yaxis=dict(title='Tempo de viagem', showticklabels=False), xaxis=dict(title='Horário'), title_text=f'Tempo de viagem no sentido {destinos[linha][0]["destino"]}')
 
-                fig_volta = px.bar(
-                    resultado_volta,
-                    x='faixa_horaria',
-                    y='mediana_tempo_viagem',
-                    text='tempo_formatado',
-                    barmode='group',
-                    category_orders={'faixa_horaria': resultado_ida['faixa_horaria'].tolist()}
+                fig_volta = go.Figure()
+
+                fig_volta.add_trace(go.Bar(
+                    x=resultado_volta['faixa_horaria'],
+                    y=resultado_volta['q3_tempo_viagem'],
+                    text=resultado_volta['q3_formatado'],
+                    textposition='outside',
+                    showlegend=False,
+                    marker_color='lightblue',
+                ))
+
+                fig_volta.add_trace(go.Bar(
+                    x=resultado_volta['faixa_horaria'],
+                    y=resultado_volta['q1_tempo_viagem'],
+                    text=resultado_volta['q1_formatado'],
+                    textfont=dict(color='black'),
+                    textposition='outside',
+                    showlegend=False,
+                    marker_color='steelblue',
+                ))
+
+                fig_volta.update_layout(
+                    barmode='overlay',  # sobreposição
+                    yaxis=dict(title='Tempo de viagem', showticklabels=False),
+                    xaxis=dict(title='Horário', categoryorder='array', categoryarray=resultado_volta['faixa_horaria'].tolist()),
+                    title_text=f'Tempo de viagem no sentido {destinos[linha][1]["destino"]}'
                 )
-                fig_volta.update_layout(yaxis=dict(title='Tempo de viagem', showticklabels=False), xaxis=dict(title='Horário'), title_text=f'Tempo de viagem no sentido {destinos[linha][1]["destino"]}')
 
                 st.plotly_chart(fig_ida)
                 st.plotly_chart(fig_volta)
-
-
 
             time.sleep(30)
             st.rerun()
