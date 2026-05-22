@@ -252,7 +252,7 @@ def main():
                 chart = pdk.Deck(
                     layers=[layerlinha1, layerlinha2, scatter_layer, text_layer],
                     initial_view_state=view,
-                    tooltip={"text": "Identificador: {ordem}\Velocidade: {velocidade}km/h\nSentido: {destino}"},
+                    tooltip={"text": "Identificador: {ordem}\nVelocidade: {velocidade}km/h\nSentido: {destino}"},
                 )      
 
                 map_placeholder.pydeck_chart(chart)
