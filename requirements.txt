@@ -1,6 +1,5 @@
 requests
 pandas
-time
 streamlit>=1.31.0
 altair
 numpy
