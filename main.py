@@ -1,4 +1,6 @@
+import re
 import requests
+from google.transit import gtfs_realtime_pb2
 import pandas as pd
 import time
 import streamlit as st
@@ -16,8 +18,8 @@ st.set_page_config(page_title="GPS Rio Ônibus")
 
 @st.cache_data(ttl=14)
 def localiza_linha(linha):
-    url = "https://dados.mobilidade.rio/gps/sppo"
-    
+    url = "https://dados.mobilidade.rio/gtfs/realtime/onibus/vehicle-positions"
+
     try:
         response = requests.get(
             url,
@@ -41,7 +43,29 @@ def localiza_linha(linha):
     if response.status_code != 200:
         return None
 
-    dados = [row for row in response.json() if str(row.get('linha', '')).strip() == str(linha)]
+    # Feed GTFS-Realtime (protobuf): converte para a mesma estrutura do JSON antigo
+    feed = gtfs_realtime_pb2.FeedMessage()
+    try:
+        feed.ParseFromString(response.content)
+    except Exception:
+        st.warning("Resposta da API em formato inesperado.")
+        return None
+
+    # ATENCAO: route_id pode nao ser identico ao numero da linha (ex.: "O0422AAA").
+    # Casa o numero da linha como token inteiro dentro do route_id; ajuste aqui se necessario.
+    padrao = re.compile(r'(?<!\d)0*' + re.escape(str(linha).strip()) + r'(?!\d)')
+
+    dados = [
+        {
+            'ordem': e.vehicle.vehicle.id,
+            'latitude': e.vehicle.position.latitude,
+            'longitude': e.vehicle.position.longitude,
+            'datahora': e.vehicle.timestamp * 1000,        # segundos -> ms (mantem unit="ms" abaixo)
+            'velocidade': e.vehicle.position.speed * 3.6,  # m/s -> km/h
+        }
+        for e in feed.entity
+        if e.HasField('vehicle') and padrao.search(e.vehicle.trip.route_id)
+    ]
 
     if not dados:
         return None
@@ -252,7 +276,7 @@ def main():
                 chart = pdk.Deck(
                     layers=[layerlinha1, layerlinha2, scatter_layer, text_layer],
                     initial_view_state=view,
-                    tooltip={"text": "Identificador: {ordem}\nVelocidade: {velocidade}km/h\nSentido: {destino}"},
+                    tooltip={"text": "Identificador: {ordem}\Velocidade: {velocidade}km/h\nSentido: {destino}"},
                 )      
 
                 map_placeholder.pydeck_chart(chart)
