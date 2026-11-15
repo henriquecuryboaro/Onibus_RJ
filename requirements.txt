@@ -1,7 +1,9 @@
-streamlit
 requests
-pandas==2.3.3
-pydeck
-pyarrow
+pandas
+time
+streamlit>=1.31.0
+altair
 numpy
-plotly
+pydeck
+collections
+gtfs-realtime-bindings
